@@ -25,9 +25,7 @@ public class Application {
         while ((i++ <= Configuration.INSTANCE.maximumNumberOfGenerations)) {
             population.evolve();
             bestChromosome = population.getPopulation()[0];
-            
-            // System.out.println("Generation: " + i + " Best Fitness: " + bestChromosome.getFitness() + "\n Genelength: " + bestChromosome.getGene().get(0).getCustomers().size());
-            
+                       
             if (bestChromosome.getFitness() < currentBestFitness) {
                 currentBestFitness = bestChromosome.getFitness();
                 if(Chromosome.checkValidity(bestChromosome.getGene())){

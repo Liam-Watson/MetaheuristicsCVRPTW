@@ -42,12 +42,10 @@ public class Population {
         Chromosome[] chromosomeArray = new Chromosome[population.length];
         int index = (int) Math.round(population.length * elitismRatio);
         System.arraycopy(population, 0, chromosomeArray, 0, index);
-        // System.out.println("Gene length: " + population[i].getGene().size());
         while (index < chromosomeArray.length) {
             // System.out.println(index);
             if (Configuration.INSTANCE.randomGenerator.nextFloat() <= crossoverRatio) {
                 Chromosome[] parents = selectParents();
-                // System.out.println("Crossover: " + numberOfCrossoverOperations);
                 Chromosome[] children = parents[0].doCrossover(parents[1]);
                 numberOfCrossoverOperations++;
 
@@ -76,7 +74,6 @@ public class Population {
             index++;
         }
         Arrays.sort((chromosomeArray));
-        // System.out.println("Gene length: " + chromosomeArray[0].getFitness());
         population = chromosomeArray;
     }
 
@@ -106,11 +103,8 @@ public class Population {
     public static ArrayList<Customer> readCustomers(){
         ArrayList<Customer> customers = new ArrayList<Customer>();
         try {
-            Scanner sc = new Scanner(new File("../data/instance.txt"));
-            String tmp = sc.nextLine();
-            // tmp = sc.nextLine();
-            // tmp = sc.nextLine();
-            // tmp = sc.nextLine();
+            Scanner sc = new Scanner(new File(Configuration.INSTANCE.dataPath));
+            String tmp = sc.nextLine(); //skip first line
             ArrayList<String []> tmpList = new ArrayList<String []>();
             while(sc.hasNext()){
                 String [] line = sc.nextLine().split("\\s+");

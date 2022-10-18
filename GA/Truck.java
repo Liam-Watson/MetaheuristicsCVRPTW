@@ -57,22 +57,25 @@ public class Truck {
     public boolean isValidTrip(){
         int totalDemand = 0;
         int time = 0;
+        int counter = 1;
         for (Customer customer : customers) {
             totalDemand += customer.getDemand();
-            // System.out.println(time);
+
+            // if(counter <= customers.size()){
+            //     // time += Customer.getDistance(customer, customers.get(counter));
+            // }
             // if(time > customer.getDueDate()){
             //     // System.out.println("DUE DATE FAIl");
             //     return false;
             // }
             // if(time < customer.getReadyTime()){
-            //     // System.out.println("READY TIME FAIL");
+            //     System.out.println("READY TIME FAIL");
             //     return false;
             // }
             time+=customer.getServiceTime();
-
+            counter++;
         }
         if(totalDemand > capacity){
-            // System.out.println("CAPACITY FAIL");
             return false;
         }
         return totalDemand <= capacity;
