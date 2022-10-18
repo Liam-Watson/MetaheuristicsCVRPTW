@@ -75,6 +75,7 @@ public class Truck {
             time+=customer.getServiceTime();
             counter++;
         }
+        // System.out.println("here");
         if(totalDemand > capacity){
             return false;
         }

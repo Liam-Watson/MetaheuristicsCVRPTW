@@ -28,7 +28,7 @@ public class Chromosome implements Comparable<Chromosome> {
                 time += truck.getCustomers().get(i).getServiceTime();
             }
         }
-        fitness = (int) totalDist + (int)timePenalty; //fitness is total distance + time penalty
+        fitness = (int) totalDist + (int)(0.15*timePenalty); //fitness is total distance + time penalty
         return fitness;
     }
 
@@ -221,7 +221,7 @@ public class Chromosome implements Comparable<Chromosome> {
         ArrayList<Truck> geneTmp  = new ArrayList<Truck>();
         ArrayList<Customer> custTmp = new ArrayList<Customer>();
         do{
-            //swap between trucks
+            //swap between
             int truckIndex1 = Configuration.INSTANCE.randomGenerator.nextInt(Configuration.INSTANCE.numberOfTrucks-1);
             int truckIndex2 = Configuration.INSTANCE.randomGenerator.nextInt(Configuration.INSTANCE.numberOfTrucks-1);
             Truck truck1 = this.getGene().get(truckIndex1);
