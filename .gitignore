@@ -5,4 +5,5 @@ models
 *.pdf
 *.zip
 *.py
-
+out
+*.class
