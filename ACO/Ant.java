@@ -192,9 +192,5 @@ public class Ant extends Thread {
     public void run() {
         newRound();
         lookForWay();
-
-
-        // TODO Auto-generated method stub
-        super.run();
     }
 }

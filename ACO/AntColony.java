@@ -81,8 +81,9 @@ public class AntColony {
             iteration++;
 
             for (int i = 0; i < Configuration.INSTANCE.numberOfAnts; i++) {
-                antArray[i].newRound();
-                antArray[i].lookForWay();
+                // antArray[i].newRound();
+                // antArray[i].lookForWay();
+                antArray[i].start();
             }
 
             doDecay();
