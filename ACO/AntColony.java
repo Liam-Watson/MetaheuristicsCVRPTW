@@ -1,10 +1,12 @@
-
+import java.util.concurrent.CyclicBarrier;
 
 public class AntColony {
     private final double[][] pheromoneMatrix;
     private final Ant[] antArray;
+    final CyclicBarrier barrier;
 
     public AntColony() {
+        this.barrier = new CyclicBarrier(Configuration.INSTANCE.numberOfAnts);
         if (Configuration.INSTANCE.isDebug) {
             Configuration.INSTANCE.logEngine.write("--- AntColony()");
         }
@@ -21,7 +23,7 @@ public class AntColony {
         antArray = new Ant[Configuration.INSTANCE.numberOfAnts];
 
         for (int i = 0; i < Configuration.INSTANCE.numberOfAnts; i++) {
-            antArray[i] = new Ant(Configuration.INSTANCE.data, this);
+            antArray[i] = new Ant(Configuration.INSTANCE.data, this, barrier);
         }
 
         if (Configuration.INSTANCE.isDebug) {
@@ -72,7 +74,7 @@ public class AntColony {
 
     public void solve() {
         int iteration = 0;
-
+        
         while (iteration < Configuration.INSTANCE.numberOfIterations) {
             Configuration.INSTANCE.logEngine.write("*** iteration - " + iteration);
 
@@ -85,13 +87,22 @@ public class AntColony {
                 // antArray[i].lookForWay();
                 antArray[i].start();
             }
-
+            for(int i = 0; i < Configuration.INSTANCE.numberOfAnts; i++) {
+                try {
+                    antArray[i].join();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+            System.out.println("Iteration " + iteration + " finished");
             doDecay();
             getBestAnt().layPheromone();
-
+            
             printPheromoneMatrix();
             System.out.println(getBestAnt().toString());
+            System.out.println("Is valid: " + getBestAnt().hasAllCustomers());
             Configuration.INSTANCE.logEngine.write("***");
+            getNewAnts();
         }
     }
 
@@ -109,6 +120,12 @@ public class AntColony {
         }
 
         // System.out.println("---");
+    }
+
+    private void getNewAnts(){
+        for (int i = 0; i < Configuration.INSTANCE.numberOfAnts; i++) {
+            antArray[i] = new Ant(Configuration.INSTANCE.data, this, barrier);
+        }
     }
 
     public String toString() {
