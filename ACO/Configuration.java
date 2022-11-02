@@ -10,23 +10,35 @@ public enum Configuration {
     public final String logDirectory = userDirectory + fileSeparator + "log" + fileSeparator;
     public final LogEngine logEngine = new LogEngine(logDirectory + "debug.log");
     public final boolean isDebug = false;
-    public final DecimalFormat decimalFormat = new DecimalFormat("#0.000000000000000");
+    public final DecimalFormat decimalFormat = new DecimalFormat("#0.00000");
     public final MersenneTwister randomGenerator = new MersenneTwister(System.currentTimeMillis());
     // ant colony optimization
     // public final double decayFactor = 0.4;
     public final double startPheromoneValue = 0.0000005;
-    public final int numberOfAnts = 2000;
+    // public final int numberOfAnts = 2000;
     public final int numberOfIterations = 10000;
 
     public final int capacity = 200;
-    public final int numberOfTrucks = 10;
-    public final int assignToTruck = 10;
+    public final int numberOfTrucks = 20;
+    
 
     public final int numberOfCustomers = 100;
 
-    public final double decayFactor = 0.9;
-    public final double alpha = 5;
-    public final double beta = 5;
+    public final int assignToTruck = numberOfCustomers/numberOfTrucks;
+
+    //parameters
+    public  double decayFactor = 0.5;
+    public  double alpha = 1.5;
+    public  double beta = 2;
+    public  int numberOfAnts = 3500;
+
+    public double timeWindowObjectivePunishment = 1000;
+    public double timeWindowEtaPunishment = 1000;
+    public double distanceObjectivePunishment = 1;
+
+    public double distanceEtaPunishment = 0.5;
+
+    public double Q = 1;
 
     public ProblemInstance data;
 }

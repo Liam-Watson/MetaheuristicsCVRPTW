@@ -19,7 +19,7 @@ public class ProblemInstance {
     }
 
     public double getDistance(int from, int to) {
-        return distanceMatrix[from - 1][to - 1];
+        return distanceMatrix[from][to];
     }
 
     public Customer getCustomer(int index){
@@ -49,6 +49,7 @@ public class ProblemInstance {
             while(sc.hasNext()){
                 String [] line = sc.nextLine().split("\\s+");
                 tmpList.add(line);
+                
                 customers.add(new Customer((int)(Double.parseDouble(line[1])-1), (int)Double.parseDouble(line[2]),(int)Double.parseDouble(line[3]), (int)Double.parseDouble(line[4]), (int)Double.parseDouble(line[5]), (int)Double.parseDouble(line[6]),(int)Double.parseDouble(line[7])));
             }
             

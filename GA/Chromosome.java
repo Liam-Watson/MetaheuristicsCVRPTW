@@ -6,11 +6,12 @@ import java.util.Collections;
 public class Chromosome implements Comparable<Chromosome> {
     private final ArrayList<Truck> gene;
     private final int fitness;
+    private Customer depot;
 
-    public Chromosome(ArrayList<Truck> gene) {
+    public Chromosome(ArrayList<Truck> gene, Customer depot) {
         this.gene = gene;
         fitness = calculateFitness(gene);
-        
+        this.depot = depot;
     }
 
     private static int calculateFitness(ArrayList<Truck> gene) {
@@ -21,22 +22,30 @@ public class Chromosome implements Comparable<Chromosome> {
             float time = 0; //reset time for each truck
             for (int i = 0; i < truck.getCustomers().size()-1; i++) {
                 totalDist = totalDist + Customer.getDistance(truck.getCustomers().get(i), truck.getCustomers().get(i + 1)); //increment distance
-                //Check if time window is violated
-                if(time < truck.getCustomers().get(i).getReadyTime() || time > truck.getCustomers().get(i).getDueDate()){
-                    timePenalty+=truck.getCustomers().get(i).getServiceTime(); //increment time penalty based on service period
+                if(time == 0){
+                    // time += truck.getCustomers().get(i).getReadyTime();
+                }
+                if(time > truck.getCustomers().get(i).getDueDate()){
+                    timePenalty += Math.abs(truck.getCustomers().get(i).getDueDate()-time); //set time to ready time if it is less than ready time
+                }
+                if(time < truck.getCustomers().get(i).getReadyTime()){
+                    time = truck.getCustomers().get(i).getReadyTime();
+                    // timePenalty += Math.abs(truck.getCustomers().get(i).getReadyTime()-time); //set time to ready time if it is less than ready time
                 }
                 time += truck.getCustomers().get(i).getServiceTime();
             }
         }
-        fitness = (int) totalDist + (int)(0.15*timePenalty); //fitness is total distance + time penalty
+        // fitness = (int) totalDist + (int)(0.15*timePenalty); //fitness is total distance + time penalty
+        fitness = (int)(totalDist)  + 10*(int)timePenalty;
         return fitness;
     }
 
-    protected static Chromosome generateRandom(ArrayList<Customer> customersMain) {
+    protected static Chromosome generateRandom(ArrayList<Customer> customersMain, Customer depot) {
         ArrayList<Truck> trucks = new ArrayList<>();
+        int counter = 0; 
         do{
             trucks = new ArrayList<Truck>();
-            int numCustLeft = customersMain.size()-1; // keep track of number of customers
+            int numCustLeft = customersMain.size(); // keep track of number of customers
             ArrayList<Customer> customers = new ArrayList<Customer>();
             ArrayList<Customer> customersCopy = new ArrayList<Customer>();
             for (Customer c : customersMain) {
@@ -47,7 +56,7 @@ public class Chromosome implements Comparable<Chromosome> {
             }
         
             for (int i = 0; i < Configuration.INSTANCE.numberOfTrucks; i++) {
-                int assignToTruck = 10; // assign 10 customers to each truck
+                int assignToTruck = Configuration.INSTANCE.assignToTruck; // assign 10 customers to each truck
                 if(i == Configuration.INSTANCE.numberOfTrucks - 1){
                     assignToTruck = numCustLeft; // assign remaining customers to last truck
                 }
@@ -62,7 +71,8 @@ public class Chromosome implements Comparable<Chromosome> {
                 ArrayList<Customer> custToTruck = new ArrayList<Customer>();
                 
                 custToTruckIndex = new ArrayList<Integer>();
-                custToTruck.add(new Customer(0, 0, 0, 0, 0, Integer.MAX_VALUE, 0));
+                // custToTruck.add(new Customer(0, 0, 0, 0, 0, Integer.MAX_VALUE, 0));
+                custToTruck.add(depot);
                 // custToTruck.add(customers.get(0).clone());
                     for(int j = 0; j < assignToTruck; j++){
                         int index = Configuration.INSTANCE.randomGenerator.nextInt(tmpCustLeft);
@@ -73,7 +83,8 @@ public class Chromosome implements Comparable<Chromosome> {
                         tmpCustLeft--;
                     }
                 // custToTruck.add(customers.get(0).clone());
-                custToTruck.add(new Customer(0, 0, 0, 0, 0, Integer.MAX_VALUE, 0));
+                // custToTruck.add(new Customer(0, 0, 0, 0, 0, Integer.MAX_VALUE, 0));
+                custToTruck.add(depot);
                 truckTmp = new Truck(i, custToTruck);
                     
                 for(Integer index : custToTruckIndex){
@@ -85,7 +96,8 @@ public class Chromosome implements Comparable<Chromosome> {
                 trucks.add(truckTmp);
                 numCustLeft = numCustLeft-assignToTruck;
             } 
-        
+            // counter++;
+            // System.out.println(counter);
         }while(!checkValidity(trucks) || !hasAllCustomers(trucks));
         //Check if route is valid
         ArrayList<Integer> tmpCheck = new ArrayList<Integer>();
@@ -100,7 +112,7 @@ public class Chromosome implements Comparable<Chromosome> {
             }
         }
         Collections.sort(tmpCheck);
-        return new Chromosome(trucks);
+        return new Chromosome(trucks, depot);
     }
 
     public ArrayList<Truck> getGene() {
@@ -115,20 +127,20 @@ public class Chromosome implements Comparable<Chromosome> {
         ArrayList<Truck> gene1 = chromosome.getGene(); // get gene from chromosome
         ArrayList<Truck> gene2 = this.getGene(); // get gene from this chromosome
         
-        ArrayList<Truck> gene1New = orderCrossOver(gene1, gene2);
-        ArrayList<Truck> gene2New = orderCrossOver(gene2, gene1);
+        ArrayList<Truck> gene1New = orderCrossOver(gene1, gene2, depot);
+        ArrayList<Truck> gene2New = orderCrossOver(gene2, gene1, depot);
         while (!checkValidity(gene1New) || !checkValidity(gene2New) || !hasAllCustomers(gene2New) || !hasAllCustomers(gene1New)) {
-            gene1New = orderCrossOver(gene1, gene2);
-            gene2New = orderCrossOver(gene2, gene1);
+            gene1New = orderCrossOver(gene1, gene2, depot);
+            gene2New = orderCrossOver(gene2, gene1, depot);
         }
 
-        if(gene1New.get(0).getCustomers().size() != 12 || gene2New.get(0).getCustomers().size() != 12){
+        if(gene1New.get(0).getCustomers().size() != Configuration.INSTANCE.assignToTruck + 2 || gene2New.get(0).getCustomers().size() != Configuration.INSTANCE.assignToTruck + 2){
             System.out.println("ERROR in fn");
         }
         
         Chromosome [] x = {
-            new Chromosome(gene1New), 
-            new Chromosome(gene2New)
+            new Chromosome(gene1New, depot), 
+            new Chromosome(gene2New, depot)
         };
         return (x);
     }
@@ -138,7 +150,7 @@ public class Chromosome implements Comparable<Chromosome> {
      Then copy the remaining customers from gene2 to child gene.
      We need to ensure that customers are only serviced once by all trucks and that each truck has a valid trip.
      Each truck needs to start and end at the depot which has customer id 0.*/ 
-    public static ArrayList<Truck> orderCrossOver(ArrayList<Truck> gene1, ArrayList<Truck> gene2){
+    public static ArrayList<Truck> orderCrossOver(ArrayList<Truck> gene1, ArrayList<Truck> gene2, Customer depot){
         ArrayList<Truck> child = new ArrayList<Truck>();
 
         ArrayList<Customer> AllCustomers1 = new ArrayList<Customer>();
@@ -196,17 +208,19 @@ public class Chromosome implements Comparable<Chromosome> {
             counterStart++;
         }
 
-        int assignToTruck = 10;
+        int assignToTruck = Configuration.INSTANCE.assignToTruck;
         int counter = 0;
         Truck truckTmp;
         for (int i = 0; i < Configuration.INSTANCE.numberOfTrucks; i++){
             ArrayList<Customer> custToTruck = new ArrayList<Customer>();
-            custToTruck.add(new Customer(0, 0, 0, 0, 0, Integer.MAX_VALUE, 0));
+            // custToTruck.add(new Customer(0, 0, 0, 0, 0, Integer.MAX_VALUE, 0));
+            custToTruck.add(depot);
             for(int j = 0; j < assignToTruck; j++ ){
                 custToTruck.add(childCustomers.get(counter).clone());
                 counter++;
             }
-            custToTruck.add(new Customer(0, 0, 0, 0, 0, Integer.MAX_VALUE, 0));
+            // custToTruck.add(new Customer(0, 0, 0, 0, 0, Integer.MAX_VALUE, 0));
+            custToTruck.add(depot);
             truckTmp = new Truck(i, custToTruck);
             child.add(truckTmp);
         }
@@ -222,8 +236,8 @@ public class Chromosome implements Comparable<Chromosome> {
         ArrayList<Customer> custTmp = new ArrayList<Customer>();
         do{
             //swap between
-            int truckIndex1 = Configuration.INSTANCE.randomGenerator.nextInt(Configuration.INSTANCE.numberOfTrucks-1);
-            int truckIndex2 = Configuration.INSTANCE.randomGenerator.nextInt(Configuration.INSTANCE.numberOfTrucks-1);
+            int truckIndex1 = Configuration.INSTANCE.randomGenerator.nextInt(Configuration.INSTANCE.numberOfTrucks);
+            int truckIndex2 = Configuration.INSTANCE.randomGenerator.nextInt(Configuration.INSTANCE.numberOfTrucks);
             Truck truck1 = this.getGene().get(truckIndex1);
             Truck truck2 = this.getGene().get(truckIndex2);
             int customerIndex1 = Math.max(1,Configuration.INSTANCE.randomGenerator.nextInt(truck1.getCustomers().size()-1));
@@ -287,11 +301,11 @@ public class Chromosome implements Comparable<Chromosome> {
             // }
         }while(!checkValidity(geneTmp) || !hasAllCustomers(geneTmp));
 
-        if(geneTmp.get(0).getCustomers().size() != 12){
+        if(geneTmp.get(0).getCustomers().size() != Configuration.INSTANCE.assignToTruck + 2){
             System.out.println("ERROR IN MUTATION: " + geneTmp.get(0).getCustomers().size());
         }
 
-        return new Chromosome(geneTmp);
+        return new Chromosome(geneTmp, depot);
     }
 
     public static ArrayList<Customer> swapMutation(ArrayList<Customer> customers){
@@ -342,35 +356,78 @@ public class Chromosome implements Comparable<Chromosome> {
             }
             tmp += " ]\n";
         }
-        tmp += Chromosome.calculateFitness(gene) + "\n Valid: \t" + Chromosome.hasAllCustomers(this.gene);
+        tmp += Chromosome.calculateFitness(gene) + "\n Valid: \t" + Chromosome.hasAllCustomers(this.gene) + "\n" + checkTimeWindows() + "\n Length:" + calculateRouteLength();
         return tmp;
+    }
+
+    public String checkTimeWindows(){
+        for(Truck t : gene){
+            if(!t.checkTimeWindows()){
+                return "Failed Time window";
+            }
+        }
+        return "TIME WINDOW PASSED";
     }
 
     public static boolean checkValidity(ArrayList<Truck> gene){
         for(Truck t : gene){
+            // System.out.println("Truck " + t.getId() + " is valid " + t.isValidTrip());
             if(!t.isValidTrip()){
+                // System.out.println("Truck " + t.getId() + " is not valid");
                 return false;
             }
         }
+        // System.out.println("All trucks are valid");
         return true;
     }
 
     public static boolean hasAllCustomers(ArrayList<Truck> gene){
         ArrayList<Integer> allCustomers = new ArrayList<Integer>();
+        int counter = 0;
         for (Truck truck : gene) {
             for (Customer customer : truck.getCustomers()) {
                 if(allCustomers.contains(customer.getId())){
+                    // System.out.println("Customer " + customer.getId() + " is duplicated");
                     return false;
                 }
                 if(customer.getId() != 0){
+                    counter++;
                     allCustomers.add(customer.getId());
                 }
                 
             }
         }
+        // System.out.println("All customers are present: " + counter);
         if(allCustomers.size() == Configuration.INSTANCE.numberOfCustomers){
+            // System.out.println("All customers are in the gene: " + allCustomers.size());
             return true;
         }
+        // System.out.println("Not all customers are in the gene: " + allCustomers.size());
         return false;
+    }
+
+    private int calculateRouteLength() {
+        ArrayList<Truck> gene = this.gene;
+        int fitness = 0; //final fitness value
+        float totalDist = 0; //total distance traveled
+        float timePenalty = 0; //total time penalty
+        for (Truck truck : gene) {
+            float time = 0; //reset time for each truck
+            for (int i = 0; i < truck.getCustomers().size()-1; i++) {
+                totalDist = totalDist + Customer.getDistance(truck.getCustomers().get(i), truck.getCustomers().get(i + 1)); //increment distance
+                if(time == 0){
+                    // time += truck.getCustomers().get(i).getReadyTime();
+                }
+                if(time > truck.getCustomers().get(i).getDueDate()){
+                    timePenalty += Math.abs(truck.getCustomers().get(i).getDueDate()-time); //set time to ready time if it is less than ready time
+                }
+                if(time < truck.getCustomers().get(i).getReadyTime()){
+                    time= truck.getCustomers().get(i).getReadyTime();
+                    // timePenalty += Math.abs(truck.getCustomers().get(i).getReadyTime()-time); //set time to ready time if it is less than ready time
+                }
+                time += truck.getCustomers().get(i).getServiceTime();
+            }
+        }
+        return (int)totalDist;
     }
 }

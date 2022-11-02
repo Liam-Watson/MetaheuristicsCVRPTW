@@ -1,17 +1,18 @@
-import java.util.concurrent.CyclicBarrier;
+import java.util.List;
+import java.util.ArrayList;
 
 public class AntColony {
     private final double[][] pheromoneMatrix;
     private final Ant[] antArray;
-    final CyclicBarrier barrier;
+
 
     public AntColony() {
-        this.barrier = new CyclicBarrier(Configuration.INSTANCE.numberOfAnts);
         if (Configuration.INSTANCE.isDebug) {
             Configuration.INSTANCE.logEngine.write("--- AntColony()");
         }
 
         int count = Configuration.INSTANCE.data.getNumberOfCities();
+
         pheromoneMatrix = new double[count][count];
 
         for (int i = 0; i < count; i++) {
@@ -23,7 +24,7 @@ public class AntColony {
         antArray = new Ant[Configuration.INSTANCE.numberOfAnts];
 
         for (int i = 0; i < Configuration.INSTANCE.numberOfAnts; i++) {
-            antArray[i] = new Ant(Configuration.INSTANCE.data, this, barrier);
+            antArray[i] = new Ant(Configuration.INSTANCE.data, this);
         }
 
         if (Configuration.INSTANCE.isDebug) {
@@ -32,11 +33,11 @@ public class AntColony {
     }
 
     public void addPheromone(int from, int to, double pheromoneValue) {
-        pheromoneMatrix[from - 1][to - 1] += pheromoneValue;
+        pheromoneMatrix[from][to] += pheromoneValue;
     }
 
     public double getPheromone(int from, int to) {
-        return pheromoneMatrix[from - 1][to - 1];
+        return pheromoneMatrix[from][to];
     }
 
     public void doDecay() {
@@ -44,10 +45,9 @@ public class AntColony {
             Configuration.INSTANCE.logEngine.write("--- AntColony.doDecay()");
         }
 
-        int count = Configuration.INSTANCE.data.getNumberOfCities();
-        for (int i = 0; i < count; i++) {
-            for (int j = 0; j < count; j++) {
-                pheromoneMatrix[i][j] *= (1.0 - Configuration.INSTANCE.decayFactor);
+        for (int i = 0; i < pheromoneMatrix.length; i++) {
+            for (int j = 0; j < pheromoneMatrix[i].length; j++) {
+                pheromoneMatrix[i][j] = pheromoneMatrix[i][j] * (1.0 - Configuration.INSTANCE.decayFactor);
             }
         }
 
@@ -74,41 +74,58 @@ public class AntColony {
 
     public void solve() {
         int iteration = 0;
-        
+        double bestObjective = Double.POSITIVE_INFINITY;
         while (iteration < Configuration.INSTANCE.numberOfIterations) {
             Configuration.INSTANCE.logEngine.write("*** iteration - " + iteration);
+
+            List<Thread> threads = new ArrayList<Thread>();
+            for(int i = 0; i < Configuration.INSTANCE.numberOfAnts; i++){
+                threads.add(new Thread(antArray[i], "Ant " + i));
+            }
 
             printPheromoneMatrix();
 
             iteration++;
 
             for (int i = 0; i < Configuration.INSTANCE.numberOfAnts; i++) {
-                // antArray[i].newRound();
-                // antArray[i].lookForWay();
-                antArray[i].start();
+                threads.get(i).start();
             }
             for(int i = 0; i < Configuration.INSTANCE.numberOfAnts; i++) {
                 try {
-                    antArray[i].join();
+                    // antArray[i].join();
+                    threads.get(i).join();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
+            for(int i = 0; i < Configuration.INSTANCE.numberOfAnts; i++) {
+                antArray[i].layPheromone();
+                // System.out.println(antArray[i].getObjectiveValue());
+            }
             System.out.println("Iteration " + iteration + " finished");
+
             doDecay();
-            getBestAnt().layPheromone();
-            
+
+            for (int i = 0; i < Configuration.INSTANCE.numberOfAnts; i++) {
+                antArray[i].layPheromone();
+            }
             printPheromoneMatrix();
-            System.out.println(getBestAnt().toString());
+            if(getBestAnt().getObjectiveValue() < bestObjective){
+                bestObjective = getBestAnt().getObjectiveValue();
+            }
+            System.out.println("Best objective value: " + bestObjective);
+            System.out.println(getBestAnt().getObjectiveValue());
+            // System.out.println(getBestAnt().toString());
             System.out.println("Is valid: " + getBestAnt().hasAllCustomers());
+            System.out.println("BEST ANT DISTANCE: " + getBestAnt().calculateRouteLength());
+            System.out.println("BEST ANT DELTA TIME: " + getBestAnt().calculateDeltaTime());
             Configuration.INSTANCE.logEngine.write("***");
-            getNewAnts();
         }
     }
 
     public void printPheromoneMatrix() {
         if (Configuration.INSTANCE.isDebug) {
-            Configuration.INSTANCE.logEngine.write("--- AntColony.printPheromoneMatrix()");
+            // Configuration.INSTANCE.logEngine.write("--- AntColony.printPheromoneMatrix()");
         }
 
         int n = pheromoneMatrix.length;
@@ -124,7 +141,7 @@ public class AntColony {
 
     private void getNewAnts(){
         for (int i = 0; i < Configuration.INSTANCE.numberOfAnts; i++) {
-            antArray[i] = new Ant(Configuration.INSTANCE.data, this, barrier);
+            antArray[i] = new Ant(Configuration.INSTANCE.data, this);
         }
     }
 

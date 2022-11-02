@@ -13,20 +13,29 @@ public class Population {
     private int numberOfCrossoverOperations = 0;
     private int numberOfMutationOperations = 0;
     private ArrayList<Customer> customers;
+    private Customer depot;
 
     public Population(int size, double crossoverRatio, double elitismRatio, double mutationRatio) {
         this.crossoverRatio = crossoverRatio;
         this.elitismRatio = elitismRatio;
         this.mutationRatio = mutationRatio;
         population = new Chromosome[size];
-        customers = Population.readCustomers();
-        System.out.println("Starting population generation...");
-        for (int i = 0; i < size; i++) {
-            System.out.println("Making chromosome: " + i);
-            population[i] = Chromosome.generateRandom(customers);
-            // System.out.println("Gene length: " + population[i].getGene().size());
+        customers = readCustomers();
+
+        if(Configuration.INSTANCE.debug){
+            System.out.println("Starting population generation...");
         }
-        System.out.println("Population Generated");
+
+        for (int i = 0; i < size; i++) {
+            if(Configuration.INSTANCE.debug){
+                System.out.println("Generating chromosome: " + i);
+            }
+            population[i] = Chromosome.generateRandom(customers, depot);
+        }
+        if(Configuration.INSTANCE.debug){
+            System.out.println("Finished population generation.");
+        }
+
         Arrays.sort(population);
     }
 
@@ -43,7 +52,6 @@ public class Population {
         int index = (int) Math.round(population.length * elitismRatio);
         System.arraycopy(population, 0, chromosomeArray, 0, index);
         while (index < chromosomeArray.length) {
-            // System.out.println(index);
             if (Configuration.INSTANCE.randomGenerator.nextFloat() <= crossoverRatio) {
                 Chromosome[] parents = selectParents();
                 Chromosome[] children = parents[0].doCrossover(parents[1]);
@@ -100,11 +108,14 @@ public class Population {
         return parentArray;
     }
 
-    public static ArrayList<Customer> readCustomers(){
+    public ArrayList<Customer> readCustomers(){
         ArrayList<Customer> customers = new ArrayList<Customer>();
         try {
             Scanner sc = new Scanner(new File(Configuration.INSTANCE.dataPath));
             String tmp = sc.nextLine(); //skip first line
+            tmp = sc.nextLine();
+            String[] tmpArray = tmp.split("\\s+");
+            this.depot = new Customer((int)Double.parseDouble("0"), (int)Double.parseDouble(tmpArray[2]),(int)Double.parseDouble(tmpArray[3]), (int)Double.parseDouble(tmpArray[4]), (int)Double.parseDouble(tmpArray[5]), (int)Double.parseDouble(tmpArray[6]),(int)Double.parseDouble(tmpArray[7]));
             ArrayList<String []> tmpList = new ArrayList<String []>();
             while(sc.hasNext()){
                 String [] line = sc.nextLine().split("\\s+");
@@ -116,5 +127,9 @@ public class Population {
             e.printStackTrace();
         }
         return customers;
+    }
+
+    public Customer getDepot(){
+        return this.depot;
     }
 }

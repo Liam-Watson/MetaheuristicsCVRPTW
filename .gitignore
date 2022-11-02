@@ -7,3 +7,4 @@ models
 *.py
 out
 *.class
+**/log/
