@@ -1,4 +1,3 @@
-import java.io.Console;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -97,14 +96,13 @@ public class Population {
 
         for (int i = 0; i < 2; i++) {
             parentArray[i] = population[Configuration.INSTANCE.randomGenerator.nextInt(population.length)];
-            for (int j = 0; j < 500; j++) {
+            for (int j = 0; j < 30; j++) {
                 int index = Configuration.INSTANCE.randomGenerator.nextInt(population.length);
                 if (population[index].compareTo(parentArray[i]) < 0) {
                     parentArray[i] = population[index].clone();
                 }
             }
         }
-        // System.out.println("Parents:\n" + parentArray[0] + "\n" + parentArray[1]);
         return parentArray;
     }
 

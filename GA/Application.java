@@ -1,21 +1,15 @@
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Application {
     public static void main(String[] args) {
         DecimalFormat decimalFormat = new DecimalFormat("000000");
         double currentBestFitness = Double.MAX_VALUE;
-        // Application application = new Application();
         if(args.length > 2) {
             Configuration.INSTANCE.populationSize = Integer.parseInt(args[2]);
             Configuration.INSTANCE.crossoverRatio = Double.parseDouble(args[0]);
             Configuration.INSTANCE.mutationRatio = Double.parseDouble(args[1]);
         }
 
-        // Configuration.INSTANCE.populationSize = Integer.parseInt(args[0]);
 
         long runtimeStart = System.currentTimeMillis();
         
@@ -38,8 +32,6 @@ public class Application {
                 }
                 if(Configuration.INSTANCE.debug){
                     System.out.println("generation " + decimalFormat.format(i) + " : " + " - " + bestChromosome.getFitness() + "\t Time window: "  + bestChromosome.checkTimeWindows());
-                    // System.out.println("generation " + decimalFormat.format(i) + " : " + " - " + bestChromosome.getFitness() + "\t valid: " + Chromosome.checkValidity(bestChromosome.getGene()) + "\t No dups: " + Chromosome.hasAllCustomers(bestChromosome.getGene()) + "\n" + bestChromosome.getRoutes());
-                
                 }
             }
         }

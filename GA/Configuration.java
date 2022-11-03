@@ -3,24 +3,16 @@ public enum Configuration {
 
     public final MersenneTwister randomGenerator = new MersenneTwister(System.currentTimeMillis());
 
-    // genetic algorithm
-    // public  int populationSize = 2048;
-    public final int maximumNumberOfGenerations = 10000;
-    // public double crossoverRatio = 0.7;
-    // public final double elitismRatio = 0.1;
-    // public double elitismRatio = 0.5;
-    // public final double mutationRatio = 0.00005;
-    // public double mutationRatio = 0.7;
 
-    //tunable params
-    // public  int populationSize = 2048;
-    public int populationSize = 1000;
+    public final int maximumNumberOfGenerations = 10000;
+
+    public int populationSize = 10000;
     public double crossoverRatio = 0.3;
     public double elitismRatio = 0.3;
     public double mutationRatio = 0.05;
-    //truck capacity
+
     public final int capacity = 200;
-    // public final int numberOfTrucks = 10;
+
     public final int numberOfTrucks = 20;
 
     // customers
