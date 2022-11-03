@@ -16,7 +16,7 @@ public enum Configuration {
     // public final double decayFactor = 0.4;
     public final double startPheromoneValue = 0.0000005;
     // public final int numberOfAnts = 2000;
-    public final int numberOfIterations = 10000;
+    public final int numberOfIterations = 150;
 
     public final int capacity = 200;
     public final int numberOfTrucks = 20;
@@ -30,7 +30,8 @@ public enum Configuration {
     public  double decayFactor = 0.5;
     public  double alpha = 1.5;
     public  double beta = 2;
-    public  int numberOfAnts = 3500;
+    public  int numberOfAnts = 3000;
+    // public int numberOfAnts = 50;
 
     public double timeWindowObjectivePunishment = 1000;
     public double timeWindowEtaPunishment = 1000;

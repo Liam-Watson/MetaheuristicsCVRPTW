@@ -75,6 +75,7 @@ public class AntColony {
     public void solve() {
         int iteration = 0;
         double bestObjective = Double.POSITIVE_INFINITY;
+        String bestRoute = "";
         while (iteration < Configuration.INSTANCE.numberOfIterations) {
             Configuration.INSTANCE.logEngine.write("*** iteration - " + iteration);
 
@@ -112,8 +113,10 @@ public class AntColony {
             printPheromoneMatrix();
             if(getBestAnt().getObjectiveValue() < bestObjective){
                 bestObjective = getBestAnt().getObjectiveValue();
+                bestRoute = getBestAnt().toString();
             }
             System.out.println("Best objective value: " + bestObjective);
+            System.out.println("Best route: " + bestRoute);
             System.out.println(getBestAnt().getObjectiveValue());
             // System.out.println(getBestAnt().toString());
             System.out.println("Is valid: " + getBestAnt().hasAllCustomers());

@@ -97,10 +97,10 @@ public class Population {
 
         for (int i = 0; i < 2; i++) {
             parentArray[i] = population[Configuration.INSTANCE.randomGenerator.nextInt(population.length)];
-            for (int j = 0; j < 3; j++) {
+            for (int j = 0; j < 500; j++) {
                 int index = Configuration.INSTANCE.randomGenerator.nextInt(population.length);
                 if (population[index].compareTo(parentArray[i]) < 0) {
-                    parentArray[i] = population[index];
+                    parentArray[i] = population[index].clone();
                 }
             }
         }

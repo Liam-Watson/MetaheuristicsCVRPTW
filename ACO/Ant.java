@@ -152,7 +152,7 @@ public class Ant extends Thread {
 
                     if(Double.isNaN(selectionProbability)){
                         System.out.println("selectionProbability is NaN: " + tau + " " + eta + " " + sum);
-                        selectionProbability = 0;
+                        selectionProbability = 1;
                     }
 
                     if(data.getCustomer(notYetVisited.get(j)).getDemand() + capacity > Configuration.INSTANCE.capacity){

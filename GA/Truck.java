@@ -56,35 +56,10 @@ public class Truck {
 
     public boolean isValidTrip(){
         int totalDemand = 0;
-        int time = 1;
-        int counter = 1;
-        // System.out.println("Truck " + id + " is valid: ");
         for (Customer customer : customers) {
             totalDemand += customer.getDemand();
-            // System.out.println(customer.getDemand());
-            // if(counter <= customers.size()){
-            //     time += Customer.getDistance(customer, customers.get(counter));
-            // }
-            // if(counter == 1){
-            //     // time += customer.getReadyTime();
-            // }
-            // if(time > customer.getDueDate()){
-            //     // System.out.println("DUE DATE FAIl");
-            //     System.out.println(time + "\t " + customer.getDueDate());
-            //     return false;
-            // }
-            // if(time < customer.getReadyTime()){
-            //     // System.out.println("READY TIME FAIL");
-            //     time += customer.getReadyTime()-time;
-            //     // return false;
-            // }
-            time+=customer.getServiceTime();
-            counter++;
         }
-        // System.out.println("Total demand: " + totalDemand);
-        // System.out.println("here");
         if(totalDemand > capacity){
-            // System.out.println("CAPACITY FAIL: " + totalDemand);
             return false;
             
         }
@@ -92,7 +67,7 @@ public class Truck {
     }
 
     public boolean checkTimeWindows(){
-        int time = 1;
+        int time = 0;
         for (Customer customer : customers) {
 
             if(time > customer.getDueDate()){
@@ -104,6 +79,16 @@ public class Truck {
             time+=customer.getServiceTime();
         }
         return true;
+    }
+    
+    
+    //Clone method
+    public Truck clone(){
+        ArrayList<Customer> newCustomers = new ArrayList<>();
+        for (Customer customer : customers) {
+            newCustomers.add(customer.clone());
+        }
+        return new Truck(id, newCustomers);
     }
 
 }

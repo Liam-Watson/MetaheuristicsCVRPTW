@@ -14,10 +14,10 @@ public enum Configuration {
 
     //tunable params
     // public  int populationSize = 2048;
-    public int populationSize = 3000;
-    public double crossoverRatio = 0.8;
-    public double elitismRatio = 0.01;
-    public double mutationRatio = 0.8;
+    public int populationSize = 1000;
+    public double crossoverRatio = 0.3;
+    public double elitismRatio = 0.3;
+    public double mutationRatio = 0.05;
     //truck capacity
     public final int capacity = 200;
     // public final int numberOfTrucks = 10;
