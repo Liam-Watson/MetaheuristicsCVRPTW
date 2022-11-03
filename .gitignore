@@ -4,7 +4,6 @@ models
 .idea
 *.pdf
 *.zip
-*.py
 out
 *.class
 **/log/
