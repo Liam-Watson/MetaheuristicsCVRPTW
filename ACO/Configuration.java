@@ -13,9 +13,7 @@ public enum Configuration {
     public final DecimalFormat decimalFormat = new DecimalFormat("#0.00000");
     public final MersenneTwister randomGenerator = new MersenneTwister(System.currentTimeMillis());
     // ant colony optimization
-    // public final double decayFactor = 0.4;
     public final double startPheromoneValue = 0.0000005;
-    // public final int numberOfAnts = 2000;
     public final int numberOfIterations = 150;
 
     public final int capacity = 200;
@@ -31,7 +29,6 @@ public enum Configuration {
     public  double alpha = 1.5;
     public  double beta = 2;
     public  int numberOfAnts = 3000;
-    // public int numberOfAnts = 50;
 
     public double timeWindowObjectivePunishment = 1000;
     public double timeWindowEtaPunishment = 1000;
