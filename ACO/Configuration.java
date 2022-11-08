@@ -11,7 +11,7 @@ public enum Configuration {
     public final String dataDirectory = userDirectory + fileSeparator + "data" + fileSeparator;
     public final String logDirectory = userDirectory + fileSeparator + "log" + fileSeparator;
     public final LogEngine logEngine = new LogEngine(logDirectory + "debug.log");
-    public final boolean isDebug = false;
+    public final boolean isDebug = true;
     public final DecimalFormat decimalFormat = new DecimalFormat("#0.00000");
     public final MersenneTwister randomGenerator = new MersenneTwister(System.currentTimeMillis());
     // ant colony optimization
