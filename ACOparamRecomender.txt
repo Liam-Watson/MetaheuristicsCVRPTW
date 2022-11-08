@@ -1,0 +1,750 @@
+swarm size: 10 alpha: 0.5 beta: 2 rho: 0.1 fitness: Fitness: 64475.82086086273
+swarm size: 10 alpha: 0.5 beta: 2 rho: 0.3 fitness: Fitness: 5254.118505477905
+swarm size: 10 alpha: 0.5 beta: 2 rho: 0.5 fitness: Fitness: 49412.17673313618
+swarm size: 10 alpha: 0.5 beta: 2 rho: 0.7 fitness: Fitness: 19254.70875787735
+swarm size: 10 alpha: 0.5 beta: 2 rho: 0.9 fitness: Fitness: 2383.8859672546387
+swarm size: 10 alpha: 0.5 beta: 2.5 rho: 0.1 fitness: Fitness: 14001.137923359871
+swarm size: 10 alpha: 0.5 beta: 2.5 rho: 0.3 fitness: Fitness: 70431.40165042877
+swarm size: 10 alpha: 0.5 beta: 2.5 rho: 0.5 fitness: Fitness: 19319.4982047081
+swarm size: 10 alpha: 0.5 beta: 2.5 rho: 0.7 fitness: Fitness: 51343.274443387985
+swarm size: 10 alpha: 0.5 beta: 2.5 rho: 0.9 fitness: Fitness: 18178.11126923561
+swarm size: 10 alpha: 0.5 beta: 3 rho: 0.1 fitness: Fitness: 38203.8256752491
+swarm size: 10 alpha: 0.5 beta: 3 rho: 0.3 fitness: Fitness: 5193.711996078491
+swarm size: 10 alpha: 0.5 beta: 3 rho: 0.5 fitness: Fitness: 8226.612643003464
+swarm size: 10 alpha: 0.5 beta: 3 rho: 0.7 fitness: Fitness: 59439.057742357254
+swarm size: 10 alpha: 0.5 beta: 3 rho: 0.9 fitness: Fitness: 84375.24011182785
+swarm size: 10 alpha: 0.5 beta: 3.5 rho: 0.1 fitness: Fitness: 2088.307100534439
+swarm size: 10 alpha: 0.5 beta: 3.5 rho: 0.3 fitness: Fitness: 5260.544966697693
+swarm size: 10 alpha: 0.5 beta: 3.5 rho: 0.5 fitness: Fitness: 30236.077619075775
+swarm size: 10 alpha: 0.5 beta: 3.5 rho: 0.7 fitness: Fitness: 69280.1851747036
+swarm size: 10 alpha: 0.5 beta: 3.5 rho: 0.9 fitness: Fitness: 78358.87996792793
+swarm size: 10 alpha: 0.5 beta: 4 rho: 0.1 fitness: Fitness: 51084.38214635849
+swarm size: 10 alpha: 0.5 beta: 4 rho: 0.3 fitness: Fitness: 20138.80055475235
+swarm size: 10 alpha: 0.5 beta: 4 rho: 0.5 fitness: Fitness: 49140.50671005249
+swarm size: 10 alpha: 0.5 beta: 4 rho: 0.7 fitness: Fitness: 83328.92804861069
+swarm size: 10 alpha: 0.5 beta: 4 rho: 0.9 fitness: Fitness: 84475.94282579422
+swarm size: 10 alpha: 1 beta: 2 rho: 0.1 fitness: Fitness: 2005.4877024888992
+swarm size: 10 alpha: 1 beta: 2 rho: 0.3 fitness: Fitness: 51173.82155609131
+swarm size: 10 alpha: 1 beta: 2 rho: 0.5 fitness: Fitness: 2045.4385976791382
+swarm size: 10 alpha: 1 beta: 2 rho: 0.7 fitness: Fitness: 1907.6675637960434
+swarm size: 10 alpha: 1 beta: 2 rho: 0.9 fitness: Fitness: 2459.303792476654
+swarm size: 10 alpha: 1 beta: 2.5 rho: 0.1 fitness: Fitness: 1972.4842958450317
+swarm size: 10 alpha: 1 beta: 2.5 rho: 0.3 fitness: Fitness: 69186.36029267311
+swarm size: 10 alpha: 1 beta: 2.5 rho: 0.5 fitness: Fitness: 1733.8990256786346
+swarm size: 10 alpha: 1 beta: 2.5 rho: 0.7 fitness: Fitness: 2053.374503850937
+swarm size: 10 alpha: 1 beta: 2.5 rho: 0.9 fitness: Fitness: 27397.31210398674
+swarm size: 10 alpha: 1 beta: 3 rho: 0.1 fitness: Fitness: 90052.54473352432
+swarm size: 10 alpha: 1 beta: 3 rho: 0.3 fitness: Fitness: 34113.52009320259
+swarm size: 10 alpha: 1 beta: 3 rho: 0.5 fitness: Fitness: 2015.3772537708282
+swarm size: 10 alpha: 1 beta: 3 rho: 0.7 fitness: Fitness: 2005.2045619487762
+swarm size: 10 alpha: 1 beta: 3 rho: 0.9 fitness: Fitness: 10338.182124495506
+swarm size: 10 alpha: 1 beta: 3.5 rho: 0.1 fitness: Fitness: 90129.7666311264
+swarm size: 10 alpha: 1 beta: 3.5 rho: 0.3 fitness: Fitness: 71246.47466635704
+swarm size: 10 alpha: 1 beta: 3.5 rho: 0.5 fitness: Fitness: 91160.2774900198
+swarm size: 10 alpha: 1 beta: 3.5 rho: 0.7 fitness: Fitness: 4088.082624435425
+swarm size: 10 alpha: 1 beta: 3.5 rho: 0.9 fitness: Fitness: 45336.81389403343
+swarm size: 10 alpha: 1 beta: 4 rho: 0.1 fitness: Fitness: 62351.93602371216
+swarm size: 10 alpha: 1 beta: 4 rho: 0.3 fitness: Fitness: 58183.1542930603
+swarm size: 10 alpha: 1 beta: 4 rho: 0.5 fitness: Fitness: 62181.4546380043
+swarm size: 10 alpha: 1 beta: 4 rho: 0.7 fitness: Fitness: 109103.99083161354
+swarm size: 10 alpha: 1 beta: 4 rho: 0.9 fitness: Fitness: 94113.71625375748
+swarm size: 10 alpha: 1.5 beta: 2 rho: 0.1 fitness: Fitness: 37182.47135639191
+swarm size: 10 alpha: 1.5 beta: 2 rho: 0.3 fitness: Fitness: 78253.86042785645
+swarm size: 10 alpha: 1.5 beta: 2 rho: 0.5 fitness: Fitness: 2040.4709057807922
+swarm size: 10 alpha: 1.5 beta: 2 rho: 0.7 fitness: Fitness: 1974.6122578382492
+swarm size: 10 alpha: 1.5 beta: 2 rho: 0.9 fitness: Fitness: 27160.485591173172
+swarm size: 10 alpha: 1.5 beta: 2.5 rho: 0.1 fitness: Fitness: 90042.43391561508
+swarm size: 10 alpha: 1.5 beta: 2.5 rho: 0.3 fitness: Fitness: 86971.3542547226
+swarm size: 10 alpha: 1.5 beta: 2.5 rho: 0.5 fitness: Fitness: 41231.60428631306
+swarm size: 10 alpha: 1.5 beta: 2.5 rho: 0.7 fitness: Fitness: 1947.855665922165
+swarm size: 10 alpha: 1.5 beta: 2.5 rho: 0.9 fitness: Fitness: 2045.2027518749237
+swarm size: 10 alpha: 1.5 beta: 3 rho: 0.1 fitness: Fitness: 2208.3859162330627
+swarm size: 10 alpha: 1.5 beta: 3 rho: 0.3 fitness: Fitness: 24995.558826446533
+swarm size: 10 alpha: 1.5 beta: 3 rho: 0.5 fitness: Fitness: 1980.0182392597198
+swarm size: 10 alpha: 1.5 beta: 3 rho: 0.7 fitness: Fitness: 2154.9480892419815
+swarm size: 10 alpha: 1.5 beta: 3 rho: 0.9 fitness: Fitness: 24056.147959709167
+swarm size: 10 alpha: 1.5 beta: 3.5 rho: 0.1 fitness: Fitness: 90290.62577319145
+swarm size: 10 alpha: 1.5 beta: 3.5 rho: 0.3 fitness: Fitness: 87115.48676276207
+swarm size: 10 alpha: 1.5 beta: 3.5 rho: 0.5 fitness: Fitness: 38054.759392499924
+swarm size: 10 alpha: 1.5 beta: 3.5 rho: 0.7 fitness: Fitness: 4137.376458287239
+swarm size: 10 alpha: 1.5 beta: 3.5 rho: 0.9 fitness: Fitness: 101296.00346207619
+swarm size: 10 alpha: 1.5 beta: 4 rho: 0.1 fitness: Fitness: 30124.581476211548
+swarm size: 10 alpha: 1.5 beta: 4 rho: 0.3 fitness: Fitness: 105047.114590168
+swarm size: 10 alpha: 1.5 beta: 4 rho: 0.5 fitness: Fitness: 90050.21859240532
+swarm size: 10 alpha: 1.5 beta: 4 rho: 0.7 fitness: Fitness: 56336.866787433624
+swarm size: 10 alpha: 1.5 beta: 4 rho: 0.9 fitness: Fitness: 98458.54380202293
+swarm size: 10 alpha: 2 beta: 2 rho: 0.1 fitness: Fitness: 52212.22813785076
+swarm size: 10 alpha: 2 beta: 2 rho: 0.3 fitness: Fitness: 2063.6329872608185
+swarm size: 10 alpha: 2 beta: 2 rho: 0.5 fitness: Fitness: 96103.14383077621
+swarm size: 10 alpha: 2 beta: 2 rho: 0.7 fitness: Fitness: 19153.438664913177
+swarm size: 10 alpha: 2 beta: 2 rho: 0.9 fitness: Fitness: 2191.0382117033005
+swarm size: 10 alpha: 2 beta: 2.5 rho: 0.1 fitness: Fitness: 29127.199127078056
+swarm size: 10 alpha: 2 beta: 2.5 rho: 0.3 fitness: Fitness: 2038.185042142868
+swarm size: 10 alpha: 2 beta: 2.5 rho: 0.5 fitness: Fitness: 2156.3560705184937
+swarm size: 10 alpha: 2 beta: 2.5 rho: 0.7 fitness: Fitness: 96983.71502149105
+swarm size: 10 alpha: 2 beta: 2.5 rho: 0.9 fitness: Fitness: 2023.2872397899628
+swarm size: 10 alpha: 2 beta: 3 rho: 0.1 fitness: Fitness: 87408.48849916458
+swarm size: 10 alpha: 2 beta: 3 rho: 0.3 fitness: Fitness: 19184.09461259842
+swarm size: 10 alpha: 2 beta: 3 rho: 0.5 fitness: Fitness: 92924.4220237732
+swarm size: 10 alpha: 2 beta: 3 rho: 0.7 fitness: Fitness: 2192.982065677643
+swarm size: 10 alpha: 2 beta: 3 rho: 0.9 fitness: Fitness: 101185.08159852028
+swarm size: 10 alpha: 2 beta: 3.5 rho: 0.1 fitness: Fitness: 26163.81608390808
+swarm size: 10 alpha: 2 beta: 3.5 rho: 0.3 fitness: Fitness: 106205.00626468658
+swarm size: 10 alpha: 2 beta: 3.5 rho: 0.5 fitness: Fitness: 93044.59595012665
+swarm size: 10 alpha: 2 beta: 3.5 rho: 0.7 fitness: Fitness: 1925.135201573372
+swarm size: 10 alpha: 2 beta: 3.5 rho: 0.9 fitness: Fitness: 103338.1868467331
+swarm size: 10 alpha: 2 beta: 4 rho: 0.1 fitness: Fitness: 2090.601999759674
+swarm size: 10 alpha: 2 beta: 4 rho: 0.3 fitness: Fitness: 97036.20818376541
+swarm size: 10 alpha: 2 beta: 4 rho: 0.5 fitness: Fitness: 89950.78790056705
+swarm size: 10 alpha: 2 beta: 4 rho: 0.7 fitness: Fitness: 97041.90318608284
+swarm size: 10 alpha: 2 beta: 4 rho: 0.9 fitness: Fitness: 99183.6576654911
+swarm size: 10 alpha: 2.5 beta: 2 rho: 0.1 fitness: Fitness: 44120.95454287529
+swarm size: 10 alpha: 2.5 beta: 2 rho: 0.3 fitness: Fitness: 39185.50984072685
+swarm size: 10 alpha: 2.5 beta: 2 rho: 0.5 fitness: Fitness: 2322.0903799533844
+swarm size: 10 alpha: 2.5 beta: 2 rho: 0.7 fitness: Fitness: 2119.1094415187836
+swarm size: 10 alpha: 2.5 beta: 2 rho: 0.9 fitness: selectionProbability is NaN: 0.0 0.0016820858809375 0.0
+selectionProbability is NaN: 0.0 6.225614596320536E-8 0.0
+Fitness: 57237.81388413906
+swarm size: 10 alpha: 2.5 beta: 2.5 rho: 0.1 fitness: Fitness: 50121.306082725525
+swarm size: 10 alpha: 2.5 beta: 2.5 rho: 0.3 fitness: Fitness: 14048.766204595566
+swarm size: 10 alpha: 2.5 beta: 2.5 rho: 0.5 fitness: Fitness: 13977.083056211472
+swarm size: 10 alpha: 2.5 beta: 2.5 rho: 0.7 fitness: Fitness: 1826.8904111385345
+swarm size: 10 alpha: 2.5 beta: 2.5 rho: 0.9 fitness: Fitness: 25127.505972385406
+swarm size: 10 alpha: 2.5 beta: 3 rho: 0.1 fitness: Fitness: 138159.73855543137
+swarm size: 10 alpha: 2.5 beta: 3 rho: 0.3 fitness: Fitness: 90099.91660428047
+swarm size: 10 alpha: 2.5 beta: 3 rho: 0.5 fitness: Fitness: 126256.34434247017
+swarm size: 10 alpha: 2.5 beta: 3 rho: 0.7 fitness: Fitness: 121994.67165780067
+swarm size: 10 alpha: 2.5 beta: 3 rho: 0.9 fitness: Fitness: 62219.44670796394
+swarm size: 10 alpha: 2.5 beta: 3.5 rho: 0.1 fitness: Fitness: 2149.4426970481873
+swarm size: 10 alpha: 2.5 beta: 3.5 rho: 0.3 fitness: Fitness: 98081.60534954071
+swarm size: 10 alpha: 2.5 beta: 3.5 rho: 0.5 fitness: Fitness: 21202.964075565338
+swarm size: 10 alpha: 2.5 beta: 3.5 rho: 0.7 fitness: Fitness: 118143.85890603065
+swarm size: 10 alpha: 2.5 beta: 3.5 rho: 0.9 fitness: Fitness: 104245.47290945053
+swarm size: 10 alpha: 2.5 beta: 4 rho: 0.1 fitness: Fitness: 91283.39937794209
+swarm size: 10 alpha: 2.5 beta: 4 rho: 0.3 fitness: Fitness: 118221.97950720787
+swarm size: 10 alpha: 2.5 beta: 4 rho: 0.5 fitness: Fitness: 97995.36026668549
+swarm size: 10 alpha: 2.5 beta: 4 rho: 0.7 fitness: Fitness: 102272.80809092522
+swarm size: 10 alpha: 2.5 beta: 4 rho: 0.9 fitness: Fitness: 1990.6175830364227
+swarm size: 100 alpha: 0.5 beta: 2 rho: 0.1 fitness: Fitness: 8374.020638227463
+swarm size: 100 alpha: 0.5 beta: 2 rho: 0.3 fitness: Fitness: 2365.2069256305695
+swarm size: 100 alpha: 0.5 beta: 2 rho: 0.5 fitness: Fitness: 9319.34905076027
+swarm size: 100 alpha: 0.5 beta: 2 rho: 0.7 fitness: Fitness: 2329.4119119644165
+swarm size: 100 alpha: 0.5 beta: 2 rho: 0.9 fitness: Fitness: 38340.15720272064
+swarm size: 100 alpha: 0.5 beta: 2.5 rho: 0.1 fitness: Fitness: 24289.048724889755
+swarm size: 100 alpha: 0.5 beta: 2.5 rho: 0.3 fitness: Fitness: 2250.173947572708
+swarm size: 100 alpha: 0.5 beta: 2.5 rho: 0.5 fitness: Fitness: 12233.209761023521
+swarm size: 100 alpha: 0.5 beta: 2.5 rho: 0.7 fitness: Fitness: 7229.008396148682
+swarm size: 100 alpha: 0.5 beta: 2.5 rho: 0.9 fitness: Fitness: 30297.331811904907
+swarm size: 100 alpha: 0.5 beta: 3 rho: 0.1 fitness: Fitness: 30431.008120775223
+swarm size: 100 alpha: 0.5 beta: 3 rho: 0.3 fitness: Fitness: 14310.164105653763
+swarm size: 100 alpha: 0.5 beta: 3 rho: 0.5 fitness: Fitness: 21364.5880548954
+swarm size: 100 alpha: 0.5 beta: 3 rho: 0.7 fitness: Fitness: 9229.720462799072
+swarm size: 100 alpha: 0.5 beta: 3 rho: 0.9 fitness: Fitness: 30123.742536067963
+swarm size: 100 alpha: 0.5 beta: 3.5 rho: 0.1 fitness: Fitness: 2367.815654039383
+swarm size: 100 alpha: 0.5 beta: 3.5 rho: 0.3 fitness: Fitness: 14114.067781686783
+swarm size: 100 alpha: 0.5 beta: 3.5 rho: 0.5 fitness: Fitness: 2305.304825782776
+swarm size: 100 alpha: 0.5 beta: 3.5 rho: 0.7 fitness: Fitness: 48227.73998904228
+swarm size: 100 alpha: 0.5 beta: 3.5 rho: 0.9 fitness: Fitness: 2207.78257727623
+swarm size: 100 alpha: 0.5 beta: 4 rho: 0.1 fitness: Fitness: 6186.919250249863
+swarm size: 100 alpha: 0.5 beta: 4 rho: 0.3 fitness: Fitness: 6347.843412160873
+swarm size: 100 alpha: 0.5 beta: 4 rho: 0.5 fitness: Fitness: 3120.4632453918457
+swarm size: 100 alpha: 0.5 beta: 4 rho: 0.7 fitness: Fitness: 38102.04206228256
+swarm size: 100 alpha: 0.5 beta: 4 rho: 0.9 fitness: Fitness: 2021.1288497447968
+swarm size: 100 alpha: 1 beta: 2 rho: 0.1 fitness: Fitness: 1872.1939346790314
+swarm size: 100 alpha: 1 beta: 2 rho: 0.3 fitness: Fitness: 1772.507882118225
+swarm size: 100 alpha: 1 beta: 2 rho: 0.5 fitness: Fitness: 1876.0658869743347
+swarm size: 100 alpha: 1 beta: 2 rho: 0.7 fitness: Fitness: 1834.9043753147125
+swarm size: 100 alpha: 1 beta: 2 rho: 0.9 fitness: Fitness: 1743.5712568759918
+swarm size: 100 alpha: 1 beta: 2.5 rho: 0.1 fitness: Fitness: 1962.4665904045105
+swarm size: 100 alpha: 1 beta: 2.5 rho: 0.3 fitness: Fitness: 1919.8623661994934
+swarm size: 100 alpha: 1 beta: 2.5 rho: 0.5 fitness: Fitness: 1882.4529504776
+swarm size: 100 alpha: 1 beta: 2.5 rho: 0.7 fitness: Fitness: 1831.0800232887268
+swarm size: 100 alpha: 1 beta: 2.5 rho: 0.9 fitness: Fitness: 1968.9380323886871
+swarm size: 100 alpha: 1 beta: 3 rho: 0.1 fitness: Fitness: 1972.6810009479523
+swarm size: 100 alpha: 1 beta: 3 rho: 0.3 fitness: Fitness: 1915.8192183971405
+swarm size: 100 alpha: 1 beta: 3 rho: 0.5 fitness: Fitness: 1770.7158727645874
+swarm size: 100 alpha: 1 beta: 3 rho: 0.7 fitness: Fitness: 1878.9410552978516
+swarm size: 100 alpha: 1 beta: 3 rho: 0.9 fitness: Fitness: 1982.4085144996643
+swarm size: 100 alpha: 1 beta: 3.5 rho: 0.1 fitness: Fitness: 1939.8705086708069
+swarm size: 100 alpha: 1 beta: 3.5 rho: 0.3 fitness: Fitness: 2042.255874633789
+swarm size: 100 alpha: 1 beta: 3.5 rho: 0.5 fitness: Fitness: 1845.9800944328308
+swarm size: 100 alpha: 1 beta: 3.5 rho: 0.7 fitness: Fitness: 1928.4544558525085
+swarm size: 100 alpha: 1 beta: 3.5 rho: 0.9 fitness: Fitness: 49340.3712015152
+swarm size: 100 alpha: 1 beta: 4 rho: 0.1 fitness: Fitness: 4073.4188315868378
+swarm size: 100 alpha: 1 beta: 4 rho: 0.3 fitness: Fitness: 1970.0148117542267
+swarm size: 100 alpha: 1 beta: 4 rho: 0.5 fitness: Fitness: 1909.9923486709595
+swarm size: 100 alpha: 1 beta: 4 rho: 0.7 fitness: Fitness: 3159.479442834854
+swarm size: 100 alpha: 1 beta: 4 rho: 0.9 fitness: Fitness: 5317.954789400101
+swarm size: 100 alpha: 1.5 beta: 2 rho: 0.1 fitness: Fitness: 1711.4191308021545
+swarm size: 100 alpha: 1.5 beta: 2 rho: 0.3 fitness: Fitness: 1801.784253835678
+swarm size: 100 alpha: 1.5 beta: 2 rho: 0.5 fitness: Fitness: 1827.2773146629333
+swarm size: 100 alpha: 1.5 beta: 2 rho: 0.7 fitness: Fitness: 1776.8237116336823
+swarm size: 100 alpha: 1.5 beta: 2 rho: 0.9 fitness: Fitness: 1689.3489400148392
+swarm size: 100 alpha: 1.5 beta: 2.5 rho: 0.1 fitness: Fitness: 1760.6107206344604
+swarm size: 100 alpha: 1.5 beta: 2.5 rho: 0.3 fitness: Fitness: 1783.3573541641235
+swarm size: 100 alpha: 1.5 beta: 2.5 rho: 0.5 fitness: Fitness: 1795.7385227680206
+swarm size: 100 alpha: 1.5 beta: 2.5 rho: 0.7 fitness: Fitness: 1823.4209759235382
+swarm size: 100 alpha: 1.5 beta: 2.5 rho: 0.9 fitness: Fitness: 1833.4883592128754
+swarm size: 100 alpha: 1.5 beta: 3 rho: 0.1 fitness: Fitness: 1832.1976640224457
+swarm size: 100 alpha: 1.5 beta: 3 rho: 0.3 fitness: Fitness: 1758.4493210315704
+swarm size: 100 alpha: 1.5 beta: 3 rho: 0.5 fitness: Fitness: 1939.6527009010315
+swarm size: 100 alpha: 1.5 beta: 3 rho: 0.7 fitness: Fitness: 1798.1915998458862
+swarm size: 100 alpha: 1.5 beta: 3 rho: 0.9 fitness: Fitness: 1963.5359449386597
+swarm size: 100 alpha: 1.5 beta: 3.5 rho: 0.1 fitness: Fitness: 31303.22319507599
+swarm size: 100 alpha: 1.5 beta: 3.5 rho: 0.3 fitness: Fitness: 8173.668315887451
+swarm size: 100 alpha: 1.5 beta: 3.5 rho: 0.5 fitness: Fitness: 21220.132094860077
+swarm size: 100 alpha: 1.5 beta: 3.5 rho: 0.7 fitness: Fitness: 8957.578778266907
+swarm size: 100 alpha: 1.5 beta: 3.5 rho: 0.9 fitness: Fitness: 44254.523716926575
+swarm size: 100 alpha: 1.5 beta: 4 rho: 0.1 fitness: Fitness: 38153.40002512932
+swarm size: 100 alpha: 1.5 beta: 4 rho: 0.3 fitness: Fitness: 5256.26992058754
+swarm size: 100 alpha: 1.5 beta: 4 rho: 0.5 fitness: Fitness: 14122.6057035923
+swarm size: 100 alpha: 1.5 beta: 4 rho: 0.7 fitness: Fitness: 1998.6452732086182
+swarm size: 100 alpha: 1.5 beta: 4 rho: 0.9 fitness: Fitness: 2006.118079662323
+swarm size: 100 alpha: 2 beta: 2 rho: 0.1 fitness: Fitness: 1907.3883938789368
+swarm size: 100 alpha: 2 beta: 2 rho: 0.3 fitness: Fitness: 1875.6712460517883
+swarm size: 100 alpha: 2 beta: 2 rho: 0.5 fitness: Fitness: 1794.0841785669327
+swarm size: 100 alpha: 2 beta: 2 rho: 0.7 fitness: Fitness: 1765.70048224926
+swarm size: 100 alpha: 2 beta: 2 rho: 0.9 fitness: Fitness: 1943.4085102081299
+swarm size: 100 alpha: 2 beta: 2.5 rho: 0.1 fitness: Fitness: 1788.8282384872437
+swarm size: 100 alpha: 2 beta: 2.5 rho: 0.3 fitness: Fitness: 1883.3703970909119
+swarm size: 100 alpha: 2 beta: 2.5 rho: 0.5 fitness: Fitness: 1864.6927814483643
+swarm size: 100 alpha: 2 beta: 2.5 rho: 0.7 fitness: Fitness: 1764.333303451538
+swarm size: 100 alpha: 2 beta: 2.5 rho: 0.9 fitness: Fitness: 49170.617359638214
+swarm size: 100 alpha: 2 beta: 3 rho: 0.1 fitness: Fitness: 1819.511751651764
+swarm size: 100 alpha: 2 beta: 3 rho: 0.3 fitness: Fitness: 21271.25948178768
+swarm size: 100 alpha: 2 beta: 3 rho: 0.5 fitness: Fitness: 1886.1445466279984
+swarm size: 100 alpha: 2 beta: 3 rho: 0.7 fitness: Fitness: 1839.0332655906677
+swarm size: 100 alpha: 2 beta: 3 rho: 0.9 fitness: Fitness: 1884.216138958931
+swarm size: 100 alpha: 2 beta: 3.5 rho: 0.1 fitness: Fitness: 66294.26918578148
+swarm size: 100 alpha: 2 beta: 3.5 rho: 0.3 fitness: Fitness: 73158.11937069893
+swarm size: 100 alpha: 2 beta: 3.5 rho: 0.5 fitness: Fitness: 1934.4515690803528
+swarm size: 100 alpha: 2 beta: 3.5 rho: 0.7 fitness: Fitness: 48158.328659534454
+swarm size: 100 alpha: 2 beta: 3.5 rho: 0.9 fitness: selectionProbability is NaN: 2.49999999999984E-309 3.8338766706086975E-17 0.0
+Fitness: 33156.02962899208
+swarm size: 100 alpha: 2 beta: 4 rho: 0.1 fitness: Fitness: 85267.62048125267
+swarm size: 100 alpha: 2 beta: 4 rho: 0.3 fitness: Fitness: 33997.34551310539
+swarm size: 100 alpha: 2 beta: 4 rho: 0.5 fitness: Fitness: 35258.18862366676
+swarm size: 100 alpha: 2 beta: 4 rho: 0.7 fitness: Fitness: 1885.0132825374603
+swarm size: 100 alpha: 2 beta: 4 rho: 0.9 fitness: selectionProbability is NaN: 2.4999999999996E-311 7.646460436851851E-18 0.0
+Fitness: 85235.34619021416
+swarm size: 100 alpha: 2.5 beta: 2 rho: 0.1 fitness: Fitness: 1874.4216907024384
+swarm size: 100 alpha: 2.5 beta: 2 rho: 0.3 fitness: Fitness: 1989.63030731678
+swarm size: 100 alpha: 2.5 beta: 2 rho: 0.5 fitness: Fitness: 1768.6675429344177
+swarm size: 100 alpha: 2.5 beta: 2 rho: 0.7 fitness: Fitness: 2047.3364088535309
+swarm size: 100 alpha: 2.5 beta: 2 rho: 0.9 fitness: Fitness: 1951.037105679512
+swarm size: 100 alpha: 2.5 beta: 2.5 rho: 0.1 fitness: Fitness: 1902.8498132228851
+swarm size: 100 alpha: 2.5 beta: 2.5 rho: 0.3 fitness: Fitness: 1755.7199829816818
+swarm size: 100 alpha: 2.5 beta: 2.5 rho: 0.5 fitness: Fitness: 1858.5741475820541
+swarm size: 100 alpha: 2.5 beta: 2.5 rho: 0.7 fitness: Fitness: 1927.5297576189041
+swarm size: 100 alpha: 2.5 beta: 2.5 rho: 0.9 fitness: Fitness: 1788.519709944725
+swarm size: 100 alpha: 2.5 beta: 3 rho: 0.1 fitness: Fitness: 7065.860769987106
+swarm size: 100 alpha: 2.5 beta: 3 rho: 0.3 fitness: Fitness: 49211.00008702278
+swarm size: 100 alpha: 2.5 beta: 3 rho: 0.5 fitness: Fitness: 1863.6345882415771
+swarm size: 100 alpha: 2.5 beta: 3 rho: 0.7 fitness: Fitness: 1790.24578166008
+swarm size: 100 alpha: 2.5 beta: 3 rho: 0.9 fitness: selectionProbability is NaN: 1.7677669529664E-311 9.41474689728577E-16 0.0
+selectionProbability is NaN: 5.59016E-319 9.627735112250379E-15 0.0
+selectionProbability is NaN: 4.9E-324 4.399211087912666E-15 0.0
+selectionProbability is NaN: 2.261022042E-314 1.6843044755367457E-14 0.0
+selectionProbability is NaN: 0.0 1.0272193059650414E-14 0.0
+selectionProbability is NaN: 0.0 2.1709273573102992E-5 0.0
+selectionProbability is NaN: 0.0 1.4676021071362565E-5 0.0
+selectionProbability is NaN: 0.0 4.536616359681162E-14 0.0
+selectionProbability is NaN: 0.0 4.541579895568678E-4 0.0
+selectionProbability is NaN: 0.0 3.9564542548508374E-5 0.0
+selectionProbability is NaN: 0.0 2.188514982339941E-15 0.0
+selectionProbability is NaN: 0.0 3.4069767388575497E-4 0.0
+selectionProbability is NaN: 0.0 8.488668898395142E-15 0.0
+selectionProbability is NaN: 0.0 1.1860588446325702E-4 0.0
+selectionProbability is NaN: 0.0 0.002485451285453059 0.0
+selectionProbability is NaN: 0.0 4.553668405790026E-14 0.0
+selectionProbability is NaN: 0.0 3.7631287163030204E-5 0.0
+selectionProbability is NaN: 0.0 6.0308629411010845E-5 0.0
+selectionProbability is NaN: 0.0 3.7902307122312185E-5 0.0
+selectionProbability is NaN: 0.0 2.8873975812975995E-5 0.0
+selectionProbability is NaN: 0.0 1.8797583564720936E-15 0.0
+selectionProbability is NaN: 0.0 3.861906749616731E-5 0.0
+selectionProbability is NaN: 0.0 1.8194917449590893E-14 0.0
+selectionProbability is NaN: 0.0 1.0269026371581987E-14 0.0
+selectionProbability is NaN: 0.0 2.9433189283112674E-4 0.0
+Fitness: 11878.267410039902
+swarm size: 100 alpha: 2.5 beta: 3.5 rho: 0.1 fitness: Fitness: 86948.4931807518
+swarm size: 100 alpha: 2.5 beta: 3.5 rho: 0.3 fitness: Fitness: 87038.09186530113
+swarm size: 100 alpha: 2.5 beta: 3.5 rho: 0.5 fitness: Fitness: 34201.61348450184
+swarm size: 100 alpha: 2.5 beta: 3.5 rho: 0.7 fitness: Fitness: 67217.41328287125
+swarm size: 100 alpha: 2.5 beta: 3.5 rho: 0.9 fitness: selectionProbability is NaN: 2.48782965294E-313 4.668168031981793E-16 0.0
+selectionProbability is NaN: 0.0 1.7830166836870595E-17 0.0
+selectionProbability is NaN: 0.0 1.0563231678104233E-15 0.0
+selectionProbability is NaN: 0.0 2.346988846661242E-5 0.0
+selectionProbability is NaN: 2.39114531031E-312 1.5308158634931308E-16 0.0
+selectionProbability is NaN: 0.0 3.084659199942623E-16 0.0
+selectionProbability is NaN: 0.0 6.237457807293547E-6 0.0
+selectionProbability is NaN: 0.0 3.336074595889386E-17 0.0
+selectionProbability is NaN: 0.0 7.197969416689008E-4 0.0
+Fitness: 1981.7941493988037
+swarm size: 100 alpha: 2.5 beta: 4 rho: 0.1 fitness: Fitness: 90024.05617713928
+swarm size: 100 alpha: 2.5 beta: 4 rho: 0.3 fitness: Fitness: 2117.7577238082886
+swarm size: 100 alpha: 2.5 beta: 4 rho: 0.5 fitness: Fitness: 87022.5916261673
+swarm size: 100 alpha: 2.5 beta: 4 rho: 0.7 fitness: Fitness: 15327.859491348267
+swarm size: 100 alpha: 2.5 beta: 4 rho: 0.9 fitness: selectionProbability is NaN: 0.0 3.3943900702321496E-21 0.0
+selectionProbability is NaN: 0.0 5.917160603589636E-7 0.0
+Fitness: 2054.8094975948334
+swarm size: 500 alpha: 0.5 beta: 2 rho: 0.1 fitness: Fitness: 8302.087593793869
+swarm size: 500 alpha: 0.5 beta: 2 rho: 0.3 fitness: Fitness: 2282.986254453659
+swarm size: 500 alpha: 0.5 beta: 2 rho: 0.5 fitness: Fitness: 29495.44520318508
+swarm size: 500 alpha: 0.5 beta: 2 rho: 0.7 fitness: Fitness: 9289.947009086609
+swarm size: 500 alpha: 0.5 beta: 2 rho: 0.9 fitness: Fitness: 14145.958120822906
+swarm size: 500 alpha: 0.5 beta: 2.5 rho: 0.1 fitness: Fitness: 2382.138091802597
+swarm size: 500 alpha: 0.5 beta: 2.5 rho: 0.3 fitness: Fitness: 5290.992984056473
+swarm size: 500 alpha: 0.5 beta: 2.5 rho: 0.5 fitness: Fitness: 28372.075445652008
+swarm size: 500 alpha: 0.5 beta: 2.5 rho: 0.7 fitness: Fitness: 12426.86285686493
+swarm size: 500 alpha: 0.5 beta: 2.5 rho: 0.9 fitness: Fitness: 6290.01700592041
+swarm size: 500 alpha: 0.5 beta: 3 rho: 0.1 fitness: Fitness: 2304.83514213562
+swarm size: 500 alpha: 0.5 beta: 3 rho: 0.3 fitness: Fitness: 5121.246226072311
+swarm size: 500 alpha: 0.5 beta: 3 rho: 0.5 fitness: Fitness: 9155.00005531311
+swarm size: 500 alpha: 0.5 beta: 3 rho: 0.7 fitness: Fitness: 19154.34316945076
+swarm size: 500 alpha: 0.5 beta: 3 rho: 0.9 fitness: Fitness: 2295.956829071045
+swarm size: 500 alpha: 0.5 beta: 3.5 rho: 0.1 fitness: Fitness: 26265.54907798767
+swarm size: 500 alpha: 0.5 beta: 3.5 rho: 0.3 fitness: Fitness: 4087.705503463745
+swarm size: 500 alpha: 0.5 beta: 3.5 rho: 0.5 fitness: Fitness: 2160.296229839325
+swarm size: 500 alpha: 0.5 beta: 3.5 rho: 0.7 fitness: Fitness: 30190.977788209915
+swarm size: 500 alpha: 0.5 beta: 3.5 rho: 0.9 fitness: Fitness: 12201.981220245361
+swarm size: 500 alpha: 0.5 beta: 4 rho: 0.1 fitness: Fitness: 5143.205158948898
+swarm size: 500 alpha: 0.5 beta: 4 rho: 0.3 fitness: Fitness: 30331.989505767822
+swarm size: 500 alpha: 0.5 beta: 4 rho: 0.5 fitness: Fitness: 8123.673125982285
+swarm size: 500 alpha: 0.5 beta: 4 rho: 0.7 fitness: Fitness: 17187.517867326736
+swarm size: 500 alpha: 0.5 beta: 4 rho: 0.9 fitness: Fitness: 13082.134806632996
+swarm size: 500 alpha: 1 beta: 2 rho: 0.1 fitness: Fitness: 1719.6318175792694
+swarm size: 500 alpha: 1 beta: 2 rho: 0.3 fitness: Fitness: 1757.7698006629944
+swarm size: 500 alpha: 1 beta: 2 rho: 0.5 fitness: Fitness: 1786.5656335353851
+swarm size: 500 alpha: 1 beta: 2 rho: 0.7 fitness: Fitness: 1788.4679211378098
+swarm size: 500 alpha: 1 beta: 2 rho: 0.9 fitness: Fitness: 1727.483068227768
+swarm size: 500 alpha: 1 beta: 2.5 rho: 0.1 fitness: Fitness: 1813.7376606464386
+swarm size: 500 alpha: 1 beta: 2.5 rho: 0.3 fitness: Fitness: 1797.5486372709274
+swarm size: 500 alpha: 1 beta: 2.5 rho: 0.5 fitness: Fitness: 1862.0186882019043
+swarm size: 500 alpha: 1 beta: 2.5 rho: 0.7 fitness: Fitness: 1820.7128129005432
+swarm size: 500 alpha: 1 beta: 2.5 rho: 0.9 fitness: Fitness: 1816.5157098770142
+swarm size: 500 alpha: 1 beta: 3 rho: 0.1 fitness: Fitness: 1861.4715867042542
+swarm size: 500 alpha: 1 beta: 3 rho: 0.3 fitness: Fitness: 1886.4871648550034
+swarm size: 500 alpha: 1 beta: 3 rho: 0.5 fitness: Fitness: 1815.7557911872864
+swarm size: 500 alpha: 1 beta: 3 rho: 0.7 fitness: Fitness: 1835.6281263828278
+swarm size: 500 alpha: 1 beta: 3 rho: 0.9 fitness: Fitness: 1847.400143623352
+swarm size: 500 alpha: 1 beta: 3.5 rho: 0.1 fitness: Fitness: 1883.7992495298386
+swarm size: 500 alpha: 1 beta: 3.5 rho: 0.3 fitness: Fitness: 1917.3333847522736
+swarm size: 500 alpha: 1 beta: 3.5 rho: 0.5 fitness: Fitness: 1856.4671578407288
+swarm size: 500 alpha: 1 beta: 3.5 rho: 0.7 fitness: Fitness: 1976.1928172111511
+swarm size: 500 alpha: 1 beta: 3.5 rho: 0.9 fitness: Fitness: 1892.827253818512
+swarm size: 500 alpha: 1 beta: 4 rho: 0.1 fitness: Fitness: 2049.662190437317
+swarm size: 500 alpha: 1 beta: 4 rho: 0.3 fitness: Fitness: 1948.3642060756683
+swarm size: 500 alpha: 1 beta: 4 rho: 0.5 fitness: Fitness: 1922.8066082000732
+swarm size: 500 alpha: 1 beta: 4 rho: 0.7 fitness: Fitness: 2011.7911159992218
+swarm size: 500 alpha: 1 beta: 4 rho: 0.9 fitness: Fitness: 1969.0999999046326
+swarm size: 500 alpha: 1.5 beta: 2 rho: 0.1 fitness: Fitness: 1731.6687124967575
+swarm size: 500 alpha: 1.5 beta: 2 rho: 0.3 fitness: Fitness: 1702.4993374347687
+swarm size: 500 alpha: 1.5 beta: 2 rho: 0.5 fitness: Fitness: 1711.1155256032944
+swarm size: 500 alpha: 1.5 beta: 2 rho: 0.7 fitness: Fitness: 1727.595559835434
+swarm size: 500 alpha: 1.5 beta: 2 rho: 0.9 fitness: Fitness: 1735.2598662376404
+swarm size: 500 alpha: 1.5 beta: 2.5 rho: 0.1 fitness: Fitness: 1763.027511358261
+swarm size: 500 alpha: 1.5 beta: 2.5 rho: 0.3 fitness: Fitness: 1747.937134027481
+swarm size: 500 alpha: 1.5 beta: 2.5 rho: 0.5 fitness: Fitness: 1763.0364112854004
+swarm size: 500 alpha: 1.5 beta: 2.5 rho: 0.7 fitness: Fitness: 1727.862303495407
+swarm size: 500 alpha: 1.5 beta: 2.5 rho: 0.9 fitness: Fitness: 1786.2058629989624
+swarm size: 500 alpha: 1.5 beta: 3 rho: 0.1 fitness: Fitness: 2013.8229750394821
+swarm size: 500 alpha: 1.5 beta: 3 rho: 0.3 fitness: Fitness: 1824.921442270279
+swarm size: 500 alpha: 1.5 beta: 3 rho: 0.5 fitness: Fitness: 1889.237872838974
+swarm size: 500 alpha: 1.5 beta: 3 rho: 0.7 fitness: Fitness: 1842.8213458061218
+swarm size: 500 alpha: 1.5 beta: 3 rho: 0.9 fitness: Fitness: 1694.2947398424149
+swarm size: 500 alpha: 1.5 beta: 3.5 rho: 0.1 fitness: Fitness: 2127.6923093795776
+swarm size: 500 alpha: 1.5 beta: 3.5 rho: 0.3 fitness: Fitness: 1842.2047443389893
+swarm size: 500 alpha: 1.5 beta: 3.5 rho: 0.5 fitness: Fitness: 1960.930305480957
+swarm size: 500 alpha: 1.5 beta: 3.5 rho: 0.7 fitness: Fitness: 1942.5855631828308
+swarm size: 500 alpha: 1.5 beta: 3.5 rho: 0.9 fitness: Fitness: 1951.418138742447
+swarm size: 500 alpha: 1.5 beta: 4 rho: 0.1 fitness: Fitness: 5078.41529583931
+swarm size: 500 alpha: 1.5 beta: 4 rho: 0.3 fitness: Fitness: 9134.138605117798
+swarm size: 500 alpha: 1.5 beta: 4 rho: 0.5 fitness: Fitness: 1893.1319184303284
+swarm size: 500 alpha: 1.5 beta: 4 rho: 0.7 fitness: Fitness: 1917.361935377121
+swarm size: 500 alpha: 1.5 beta: 4 rho: 0.9 fitness: Fitness: 35275.355086803436
+swarm size: 500 alpha: 2 beta: 2 rho: 0.1 fitness: Fitness: 1723.7712197303772
+swarm size: 500 alpha: 2 beta: 2 rho: 0.3 fitness: Fitness: 1848.8690474033356
+swarm size: 500 alpha: 2 beta: 2 rho: 0.5 fitness: Fitness: 1719.9499361515045
+swarm size: 500 alpha: 2 beta: 2 rho: 0.7 fitness: Fitness: 1780.6521797180176
+swarm size: 500 alpha: 2 beta: 2 rho: 0.9 fitness: Fitness: 1722.0484721660614
+swarm size: 500 alpha: 2 beta: 2.5 rho: 0.1 fitness: Fitness: 1837.0773483514786
+swarm size: 500 alpha: 2 beta: 2.5 rho: 0.3 fitness: Fitness: 1871.8152495622635
+swarm size: 500 alpha: 2 beta: 2.5 rho: 0.5 fitness: Fitness: 1831.12504696846
+swarm size: 500 alpha: 2 beta: 2.5 rho: 0.7 fitness: Fitness: 1740.204760313034
+swarm size: 500 alpha: 2 beta: 2.5 rho: 0.9 fitness: Fitness: 1819.2840538024902
+swarm size: 500 alpha: 2 beta: 3 rho: 0.1 fitness: Fitness: 2040.718523979187
+swarm size: 500 alpha: 2 beta: 3 rho: 0.3 fitness: Fitness: 2019.276867032051
+swarm size: 500 alpha: 2 beta: 3 rho: 0.5 fitness: Fitness: 1851.922688961029
+swarm size: 500 alpha: 2 beta: 3 rho: 0.7 fitness: Fitness: 1951.1905887126923
+swarm size: 500 alpha: 2 beta: 3 rho: 0.9 fitness: Fitness: 1805.6281385421753
+swarm size: 500 alpha: 2 beta: 3.5 rho: 0.1 fitness: Fitness: 10103.679888486862
+swarm size: 500 alpha: 2 beta: 3.5 rho: 0.3 fitness: Fitness: 1891.0311512947083
+swarm size: 500 alpha: 2 beta: 3.5 rho: 0.5 fitness: Fitness: 18046.323047161102
+swarm size: 500 alpha: 2 beta: 3.5 rho: 0.7 fitness: Fitness: 2170.6892030239105
+swarm size: 500 alpha: 2 beta: 3.5 rho: 0.9 fitness: Fitness: 1790.0118975639343
+swarm size: 500 alpha: 2 beta: 4 rho: 0.1 fitness: Fitness: 33056.410717606544
+swarm size: 500 alpha: 2 beta: 4 rho: 0.3 fitness: Fitness: 2003.6585619449615
+swarm size: 500 alpha: 2 beta: 4 rho: 0.5 fitness: Fitness: 5135.255625963211
+swarm size: 500 alpha: 2 beta: 4 rho: 0.7 fitness: Fitness: 2079.787463784218
+swarm size: 500 alpha: 2 beta: 4 rho: 0.9 fitness: Fitness: 1832.8453919887543
+swarm size: 500 alpha: 2.5 beta: 2 rho: 0.1 fitness: Fitness: 1693.3100473880768
+swarm size: 500 alpha: 2.5 beta: 2 rho: 0.3 fitness: Fitness: 1736.227287888527
+swarm size: 500 alpha: 2.5 beta: 2 rho: 0.5 fitness: Fitness: 1781.524295091629
+swarm size: 500 alpha: 2.5 beta: 2 rho: 0.7 fitness: Fitness: 1707.0794674158096
+swarm size: 500 alpha: 2.5 beta: 2 rho: 0.9 fitness: Fitness: 1755.294130206108
+swarm size: 500 alpha: 2.5 beta: 2.5 rho: 0.1 fitness: Fitness: 1771.4709936380386
+swarm size: 500 alpha: 2.5 beta: 2.5 rho: 0.3 fitness: Fitness: 1736.8044801950455
+swarm size: 500 alpha: 2.5 beta: 2.5 rho: 0.5 fitness: Fitness: 1790.255879163742
+swarm size: 500 alpha: 2.5 beta: 2.5 rho: 0.7 fitness: Fitness: 1827.8130155801773
+swarm size: 500 alpha: 2.5 beta: 2.5 rho: 0.9 fitness: selectionProbability is NaN: 0.0 0.0012931038082884848 0.0
+Fitness: 1791.7340757846832
+swarm size: 500 alpha: 2.5 beta: 3 rho: 0.1 fitness: Fitness: 1759.4292545318604
+swarm size: 500 alpha: 2.5 beta: 3 rho: 0.3 fitness: Fitness: 8160.150486469269
+swarm size: 500 alpha: 2.5 beta: 3 rho: 0.5 fitness: Fitness: 6309.200621604919
+swarm size: 500 alpha: 2.5 beta: 3 rho: 0.7 fitness: Fitness: 2083.336853504181
+swarm size: 500 alpha: 2.5 beta: 3 rho: 0.9 fitness: Fitness: 1849.729800581932
+swarm size: 500 alpha: 2.5 beta: 3.5 rho: 0.1 fitness: Fitness: 31121.57893884182
+swarm size: 500 alpha: 2.5 beta: 3.5 rho: 0.3 fitness: Fitness: 3206.4085961580276
+swarm size: 500 alpha: 2.5 beta: 3.5 rho: 0.5 fitness: Fitness: 3081.9197684526443
+swarm size: 500 alpha: 2.5 beta: 3.5 rho: 0.7 fitness: Fitness: 1795.1630353927612
+swarm size: 500 alpha: 2.5 beta: 3.5 rho: 0.9 fitness: selectionProbability is NaN: 5.0E-322 1.0077938176075139E-5 0.0
+selectionProbability is NaN: 0.0 2.00396046140329E-17 0.0
+selectionProbability is NaN: 0.0 9.512110179414602E-18 0.0
+selectionProbability is NaN: 1.5041445124E-314 3.576699392747129E-17 0.0
+selectionProbability is NaN: 0.0 1.923777799973825E-15 0.0
+selectionProbability is NaN: 8.2640828107E-314 6.671976071782908E-13 0.0
+selectionProbability is NaN: 0.0 3.570380505249032E-17 0.0
+selectionProbability is NaN: 0.0 8.800288757655986E-16 0.0
+selectionProbability is NaN: 0.0 3.553032560354046E-6 0.0
+selectionProbability is NaN: 0.0 6.572086843757004E-17 0.0
+selectionProbability is NaN: 0.0 4.019797467524715E-5 0.0
+selectionProbability is NaN: 0.0 1.8872290966114844E-17 0.0
+selectionProbability is NaN: 0.0 1.7279065913741794E-4 0.0
+selectionProbability is NaN: 0.0 5.985179682866773E-6 0.0
+selectionProbability is NaN: 0.0 2.4048521784370644E-17 0.0
+selectionProbability is NaN: 0.0 1.243425654321173E-16 0.0
+selectionProbability is NaN: 0.0 0.0015717917203905804 0.0
+selectionProbability is NaN: 5.9E-323 2.756756520453902E-12 0.0
+selectionProbability is NaN: 0.0 9.94009183775316E-15 0.0
+selectionProbability is NaN: 0.0 1.0544546105446431E-15 0.0
+selectionProbability is NaN: 0.0 1.850807226801795E-5 0.0
+selectionProbability is NaN: 0.0 6.052785516345987E-17 0.0
+selectionProbability is NaN: 0.0 4.035196354680778E-16 0.0
+selectionProbability is NaN: 0.0 2.664061071290822E-18 0.0
+selectionProbability is NaN: 0.0 8.455159771919816E-5 0.0
+selectionProbability is NaN: 0.0 1.684466447632016E-17 0.0
+selectionProbability is NaN: 0.0 0.0027181891432437044 0.0
+selectionProbability is NaN: 0.0 6.771457824600072E-5 0.0
+selectionProbability is NaN: 0.0 6.569066211383282E-17 0.0
+selectionProbability is NaN: 0.0 3.523537128689079E-16 0.0
+selectionProbability is NaN: 0.0 9.512859801496218E-18 0.0
+selectionProbability is NaN: 0.0 3.437607569226918E-14 0.0
+selectionProbability is NaN: 0.0 1.2749437421506114E-15 0.0
+selectionProbability is NaN: 0.0 1.8871762037724908E-17 0.0
+selectionProbability is NaN: 0.0 1.6478010056374337E-5 0.0
+selectionProbability is NaN: 0.0 1.0464535758253543E-17 0.0
+selectionProbability is NaN: 0.0 1.2838669211136744E-17 0.0
+selectionProbability is NaN: 0.0 9.962074713598956E-6 0.0
+selectionProbability is NaN: 0.0 6.061923717392559E-17 0.0
+Fitness: 9059.100999116898
+swarm size: 500 alpha: 2.5 beta: 4 rho: 0.1 fitness: Fitness: 6201.73984670639
+swarm size: 500 alpha: 2.5 beta: 4 rho: 0.3 fitness: Fitness: 52029.36459231377
+swarm size: 500 alpha: 2.5 beta: 4 rho: 0.5 fitness: Fitness: 1940.687782883644
+swarm size: 500 alpha: 2.5 beta: 4 rho: 0.7 fitness: Fitness: 5130.60129737854
+swarm size: 500 alpha: 2.5 beta: 4 rho: 0.9 fitness: selectionProbability is NaN: 1.76776693E-316 1.5912610968614653E-20 0.0
+selectionProbability is NaN: 6.5567E-320 1.8699780896772764E-5 0.0
+selectionProbability is NaN: 1.4617584E-317 5.956364191096646E-20 0.0
+selectionProbability is NaN: 0.0 9.461099342621787E-20 0.0
+selectionProbability is NaN: 0.0 3.4837870737840486E-17 0.0
+selectionProbability is NaN: 0.0 3.333850825121045E-20 0.0
+selectionProbability is NaN: 0.0 6.214327789144806E-18 0.0
+selectionProbability is NaN: 4.9E-324 1.5147930339589422E-6 0.0
+selectionProbability is NaN: 0.0 1.7473589423598538E-6 0.0
+selectionProbability is NaN: 0.0 2.991803660781469E-20 0.0
+selectionProbability is NaN: 0.0 6.656232225171294E-19 0.0
+selectionProbability is NaN: 0.0 5.345985443408927E-4 0.0
+selectionProbability is NaN: 0.0 8.428052000940429E-19 0.0
+selectionProbability is NaN: 0.0 2.6988603357756034E-20 0.0
+Fitness: 52177.19968914986
+swarm size: 1500 alpha: 0.5 beta: 2 rho: 0.1 fitness: Fitness: 2344.6925342082977
+swarm size: 1500 alpha: 0.5 beta: 2 rho: 0.3 fitness: Fitness: 2316.6193656921387
+swarm size: 1500 alpha: 0.5 beta: 2 rho: 0.5 fitness: Fitness: 2412.2423626184464
+swarm size: 1500 alpha: 0.5 beta: 2 rho: 0.7 fitness: Fitness: 2304.894628047943
+swarm size: 1500 alpha: 0.5 beta: 2 rho: 0.9 fitness: Fitness: 16357.552892684937
+swarm size: 1500 alpha: 0.5 beta: 2.5 rho: 0.1 fitness: Fitness: 2243.4372787475586
+swarm size: 1500 alpha: 0.5 beta: 2.5 rho: 0.3 fitness: Fitness: 2170.9269527196884
+swarm size: 1500 alpha: 0.5 beta: 2.5 rho: 0.5 fitness: Fitness: 17201.576436519623
+swarm size: 1500 alpha: 0.5 beta: 2.5 rho: 0.7 fitness: Fitness: 25407.767070055008
+swarm size: 1500 alpha: 0.5 beta: 2.5 rho: 0.9 fitness: Fitness: 2015.861209154129
+swarm size: 1500 alpha: 0.5 beta: 3 rho: 0.1 fitness: Fitness: 15103.934336662292
+swarm size: 1500 alpha: 0.5 beta: 3 rho: 0.3 fitness: Fitness: 2176.0260825157166
+swarm size: 1500 alpha: 0.5 beta: 3 rho: 0.5 fitness: Fitness: 15221.207234621048
+swarm size: 1500 alpha: 0.5 beta: 3 rho: 0.7 fitness: Fitness: 21377.23326230049
+swarm size: 1500 alpha: 0.5 beta: 3 rho: 0.9 fitness: Fitness: 2253.360926628113
+swarm size: 1500 alpha: 0.5 beta: 3.5 rho: 0.1 fitness: Fitness: 3290.342392206192
+swarm size: 1500 alpha: 0.5 beta: 3.5 rho: 0.3 fitness: Fitness: 10129.129187345505
+swarm size: 1500 alpha: 0.5 beta: 3.5 rho: 0.5 fitness: Fitness: 2299.6177401542664
+swarm size: 1500 alpha: 0.5 beta: 3.5 rho: 0.7 fitness: Fitness: 2041.5390965938568
+swarm size: 1500 alpha: 0.5 beta: 3.5 rho: 0.9 fitness: Fitness: 5349.872296452522
+swarm size: 1500 alpha: 0.5 beta: 4 rho: 0.1 fitness: Fitness: 12231.266132354736
+swarm size: 1500 alpha: 0.5 beta: 4 rho: 0.3 fitness: Fitness: 8215.588860273361
+swarm size: 1500 alpha: 0.5 beta: 4 rho: 0.5 fitness: Fitness: 28293.247408866882
+swarm size: 1500 alpha: 0.5 beta: 4 rho: 0.7 fitness: Fitness: 9287.83022904396
+swarm size: 1500 alpha: 0.5 beta: 4 rho: 0.9 fitness: Fitness: 23324.076422452927
+swarm size: 1500 alpha: 1 beta: 2 rho: 0.1 fitness: Fitness: 1727.7091178894043
+swarm size: 1500 alpha: 1 beta: 2 rho: 0.3 fitness: Fitness: 1755.194587469101
+swarm size: 1500 alpha: 1 beta: 2 rho: 0.5 fitness: Fitness: 1685.5831384658813
+swarm size: 1500 alpha: 1 beta: 2 rho: 0.7 fitness: Fitness: 1745.577716588974
+swarm size: 1500 alpha: 1 beta: 2 rho: 0.9 fitness: Fitness: 1762.4705247879028
+swarm size: 1500 alpha: 1 beta: 2.5 rho: 0.1 fitness: Fitness: 1774.352523803711
+swarm size: 1500 alpha: 1 beta: 2.5 rho: 0.3 fitness: Fitness: 1800.321281671524
+swarm size: 1500 alpha: 1 beta: 2.5 rho: 0.5 fitness: Fitness: 1758.156655073166
+swarm size: 1500 alpha: 1 beta: 2.5 rho: 0.7 fitness: Fitness: 1815.3680262565613
+swarm size: 1500 alpha: 1 beta: 2.5 rho: 0.9 fitness: Fitness: 1803.1993381977081
+swarm size: 1500 alpha: 1 beta: 3 rho: 0.1 fitness: Fitness: 1796.8561673164368
+swarm size: 1500 alpha: 1 beta: 3 rho: 0.3 fitness: Fitness: 1780.0556095838547
+swarm size: 1500 alpha: 1 beta: 3 rho: 0.5 fitness: Fitness: 1809.658080816269
+swarm size: 1500 alpha: 1 beta: 3 rho: 0.7 fitness: Fitness: 1828.768846154213
+swarm size: 1500 alpha: 1 beta: 3 rho: 0.9 fitness: Fitness: 1860.6883306503296
+swarm size: 1500 alpha: 1 beta: 3.5 rho: 0.1 fitness: Fitness: 1862.349110364914
+swarm size: 1500 alpha: 1 beta: 3.5 rho: 0.3 fitness: Fitness: 1833.2721946239471
+swarm size: 1500 alpha: 1 beta: 3.5 rho: 0.5 fitness: Fitness: 1854.0666770935059
+swarm size: 1500 alpha: 1 beta: 3.5 rho: 0.7 fitness: Fitness: 1882.57119846344
+swarm size: 1500 alpha: 1 beta: 3.5 rho: 0.9 fitness: Fitness: 1849.3592665195465
+swarm size: 1500 alpha: 1 beta: 4 rho: 0.1 fitness: Fitness: 1894.9758162498474
+swarm size: 1500 alpha: 1 beta: 4 rho: 0.3 fitness: Fitness: 1944.873070716858
+swarm size: 1500 alpha: 1 beta: 4 rho: 0.5 fitness: Fitness: 1861.3360834121704
+swarm size: 1500 alpha: 1 beta: 4 rho: 0.7 fitness: Fitness: 1847.3941402435303
+swarm size: 1500 alpha: 1 beta: 4 rho: 0.9 fitness: Fitness: 1935.925877571106
+swarm size: 1500 alpha: 1.5 beta: 2 rho: 0.1 fitness: Fitness: 1705.892450094223
+swarm size: 1500 alpha: 1.5 beta: 2 rho: 0.3 fitness: Fitness: 1700.695237159729
+swarm size: 1500 alpha: 1.5 beta: 2 rho: 0.5 fitness: Fitness: 1727.5907526016235
+swarm size: 1500 alpha: 1.5 beta: 2 rho: 0.7 fitness: Fitness: 1720.5117571353912
+swarm size: 1500 alpha: 1.5 beta: 2 rho: 0.9 fitness: Fitness: 1710.343082666397
+swarm size: 1500 alpha: 1.5 beta: 2.5 rho: 0.1 fitness: Fitness: 1765.373117685318
+swarm size: 1500 alpha: 1.5 beta: 2.5 rho: 0.3 fitness: Fitness: 1741.3199758529663
+swarm size: 1500 alpha: 1.5 beta: 2.5 rho: 0.5 fitness: Fitness: 1678.1016533374786
+swarm size: 1500 alpha: 1.5 beta: 2.5 rho: 0.7 fitness: Fitness: 1717.5971328020096
+swarm size: 1500 alpha: 1.5 beta: 2.5 rho: 0.9 fitness: Fitness: 1721.9423691034317
+swarm size: 1500 alpha: 1.5 beta: 3 rho: 0.1 fitness: Fitness: 1781.8751649856567
+swarm size: 1500 alpha: 1.5 beta: 3 rho: 0.3 fitness: Fitness: 1801.8330307006836
+swarm size: 1500 alpha: 1.5 beta: 3 rho: 0.5 fitness: Fitness: 1848.139953494072
+swarm size: 1500 alpha: 1.5 beta: 3 rho: 0.7 fitness: Fitness: 1812.68284034729
+swarm size: 1500 alpha: 1.5 beta: 3 rho: 0.9 fitness: Fitness: 1815.8234629631042
+swarm size: 1500 alpha: 1.5 beta: 3.5 rho: 0.1 fitness: Fitness: 1985.6986606121063
+swarm size: 1500 alpha: 1.5 beta: 3.5 rho: 0.3 fitness: Fitness: 1900.4950275421143
+swarm size: 1500 alpha: 1.5 beta: 3.5 rho: 0.5 fitness: Fitness: 1826.592135667801
+swarm size: 1500 alpha: 1.5 beta: 3.5 rho: 0.7 fitness: Fitness: 1849.6583693027496
+swarm size: 1500 alpha: 1.5 beta: 3.5 rho: 0.9 fitness: Fitness: 1833.028626203537
+swarm size: 1500 alpha: 1.5 beta: 4 rho: 0.1 fitness: Fitness: 2020.2107863426208
+swarm size: 1500 alpha: 1.5 beta: 4 rho: 0.3 fitness: Fitness: 2028.1076271533966
+swarm size: 1500 alpha: 1.5 beta: 4 rho: 0.5 fitness: Fitness: 2019.3923466205597
+swarm size: 1500 alpha: 1.5 beta: 4 rho: 0.7 fitness: Fitness: 1923.9255673885345
+swarm size: 1500 alpha: 1.5 beta: 4 rho: 0.9 fitness: Fitness: 1993.7747737169266
+swarm size: 1500 alpha: 2 beta: 2 rho: 0.1 fitness: Fitness: 1716.050327181816
+swarm size: 1500 alpha: 2 beta: 2 rho: 0.3 fitness: Fitness: 1664.4438879489899
+swarm size: 1500 alpha: 2 beta: 2 rho: 0.5 fitness: Fitness: 1684.100992679596
+swarm size: 1500 alpha: 2 beta: 2 rho: 0.7 fitness: Fitness: 1686.0979630947113
+swarm size: 1500 alpha: 2 beta: 2 rho: 0.9 fitness: Fitness: 1662.6494369506836
+swarm size: 1500 alpha: 2 beta: 2.5 rho: 0.1 fitness: Fitness: 1694.579095363617
+swarm size: 1500 alpha: 2 beta: 2.5 rho: 0.3 fitness: Fitness: 1754.21612906456
+swarm size: 1500 alpha: 2 beta: 2.5 rho: 0.5 fitness: Fitness: 1715.5320670604706
+swarm size: 1500 alpha: 2 beta: 2.5 rho: 0.7 fitness: Fitness: 1730.8458726406097
+swarm size: 1500 alpha: 2 beta: 2.5 rho: 0.9 fitness: Fitness: 1796.8438169956207
+swarm size: 1500 alpha: 2 beta: 3 rho: 0.1 fitness: Fitness: 1761.5724798440933
+swarm size: 1500 alpha: 2 beta: 3 rho: 0.3 fitness: Fitness: 1889.4307725429535
+swarm size: 1500 alpha: 2 beta: 3 rho: 0.5 fitness: Fitness: 1821.5453906059265
+swarm size: 1500 alpha: 2 beta: 3 rho: 0.7 fitness: Fitness: 1853.9302291870117
+swarm size: 1500 alpha: 2 beta: 3 rho: 0.9 fitness: Fitness: 2015.7460188865662
+swarm size: 1500 alpha: 2 beta: 3.5 rho: 0.1 fitness: Fitness: 8080.682143211365
+swarm size: 1500 alpha: 2 beta: 3.5 rho: 0.3 fitness: Fitness: 2006.323751449585
+swarm size: 1500 alpha: 2 beta: 3.5 rho: 0.5 fitness: Fitness: 1924.1452850103378
+swarm size: 1500 alpha: 2 beta: 3.5 rho: 0.7 fitness: Fitness: 28200.295402288437
+swarm size: 1500 alpha: 2 beta: 3.5 rho: 0.9 fitness: Fitness: 5073.059047460556
+swarm size: 1500 alpha: 2 beta: 4 rho: 0.1 fitness: Fitness: 1995.8176482915878
+swarm size: 1500 alpha: 2 beta: 4 rho: 0.3 fitness: Fitness: 9020.65332698822
+swarm size: 1500 alpha: 2 beta: 4 rho: 0.5 fitness: Fitness: 2003.791968345642
+swarm size: 1500 alpha: 2 beta: 4 rho: 0.7 fitness: Fitness: 2140.2791047096252
+swarm size: 1500 alpha: 2 beta: 4 rho: 0.9 fitness: selectionProbability is NaN: 2.4999999999998392E-307 1.3945088520249337E-20 0.0
+selectionProbability is NaN: 2.49999999999984E-309 6.221271741182425E-18 0.0
+selectionProbability is NaN: 2.4999999999996E-311 2.9188955155710247E-19 0.0
+selectionProbability is NaN: 3.044625051920722E-308 3.896917487128909E-19 0.0
+selectionProbability is NaN: 2.4999999999996E-311 1.8270180692867933E-20 0.0
+Fitness: 2225.9418342113495
+swarm size: 1500 alpha: 2.5 beta: 2 rho: 0.1 fitness: Fitness: 1710.9891984462738
+swarm size: 1500 alpha: 2.5 beta: 2 rho: 0.3 fitness: Fitness: 1716.6139761209488
+swarm size: 1500 alpha: 2.5 beta: 2 rho: 0.5 fitness: Fitness: 1729.5168129205704
+swarm size: 1500 alpha: 2.5 beta: 2 rho: 0.7 fitness: Fitness: 1761.5206130743027
+swarm size: 1500 alpha: 2.5 beta: 2 rho: 0.9 fitness: Fitness: 1716.2486798763275
+swarm size: 1500 alpha: 2.5 beta: 2.5 rho: 0.1 fitness: Fitness: 1759.2970765829086
+swarm size: 1500 alpha: 2.5 beta: 2.5 rho: 0.3 fitness: Fitness: 1733.7874530553818
+swarm size: 1500 alpha: 2.5 beta: 2.5 rho: 0.5 fitness: Fitness: 1794.1010468006134
+swarm size: 1500 alpha: 2.5 beta: 2.5 rho: 0.7 fitness: Fitness: 1697.7655121088028
+swarm size: 1500 alpha: 2.5 beta: 2.5 rho: 0.9 fitness: Fitness: 1776.1701502799988
+swarm size: 1500 alpha: 2.5 beta: 3 rho: 0.1 fitness: Fitness: 1796.3064589500427
+swarm size: 1500 alpha: 2.5 beta: 3 rho: 0.3 fitness: Fitness: 1798.7256854772568
+swarm size: 1500 alpha: 2.5 beta: 3 rho: 0.5 fitness: Fitness: 1883.2811702489853
+swarm size: 1500 alpha: 2.5 beta: 3 rho: 0.7 fitness: Fitness: 1885.7590227127075
+swarm size: 1500 alpha: 2.5 beta: 3 rho: 0.9 fitness: Fitness: 1851.1853870153427
+swarm size: 1500 alpha: 2.5 beta: 3.5 rho: 0.1 fitness: Fitness: 2026.278025150299
+swarm size: 1500 alpha: 2.5 beta: 3.5 rho: 0.3 fitness: Fitness: 1951.3356556892395
+swarm size: 1500 alpha: 2.5 beta: 3.5 rho: 0.5 fitness: Fitness: 5066.581053733826
+swarm size: 1500 alpha: 2.5 beta: 3.5 rho: 0.7 fitness: Fitness: 1993.7422711849213
+swarm size: 1500 alpha: 2.5 beta: 3.5 rho: 0.9 fitness: Fitness: 1844.0477046966553
+swarm size: 1500 alpha: 2.5 beta: 4 rho: 0.1 fitness: Fitness: 28287.64015328884
+swarm size: 1500 alpha: 2.5 beta: 4 rho: 0.3 fitness: Fitness: 22266.515056610107
+swarm size: 1500 alpha: 2.5 beta: 4 rho: 0.5 fitness: Fitness: 2085.9153547286987
+swarm size: 1500 alpha: 2.5 beta: 4 rho: 0.7 fitness: Fitness: 12072.481337547302
+swarm size: 1500 alpha: 2.5 beta: 4 rho: 0.9 fitness: selectionProbability is NaN: 5.59016994374912E-309 1.265353473473264E-19 0.0
+selectionProbability is NaN: 0.0 2.9497218920212844E-6 0.0
+selectionProbability is NaN: 0.0 2.697657869709904E-20 0.0
+selectionProbability is NaN: 0.0 4.123123404290261E-16 0.0
+selectionProbability is NaN: 8.6E-322 1.3640798433149633E-19 0.0
+selectionProbability is NaN: 0.0 1.090949053136456E-19 0.0
+selectionProbability is NaN: 0.0 1.913876635812145E-20 0.0
+selectionProbability is NaN: 0.0 4.97859787896399E-7 0.0
+selectionProbability is NaN: 1.238364308606633E-308 3.0125544453378545E-18 0.0
+selectionProbability is NaN: 0.0 1.090949053136456E-19 0.0
+selectionProbability is NaN: 0.0 8.844544806780647E-6 0.0
+selectionProbability is NaN: 0.0 7.627973114500764E-18 0.0
+selectionProbability is NaN: 0.0 2.6874499292731004E-6 0.0
+selectionProbability is NaN: 0.0 6.847101602405983E-7 0.0
+selectionProbability is NaN: 0.0 3.333850825121045E-20 0.0
+selectionProbability is NaN: 0.0 3.980075056579761E-6 0.0
+selectionProbability is NaN: 0.0 7.509472924937918E-16 0.0
+selectionProbability is NaN: 0.0 1.0919950051821138E-19 0.0
+selectionProbability is NaN: 0.0 3.0113664633165575E-18 0.0
+selectionProbability is NaN: 0.0 4.092764358946616E-21 0.0
+selectionProbability is NaN: 0.0 2.18137201366674E-18 0.0
+selectionProbability is NaN: 0.0 1.253034953091199E-5 0.0
+selectionProbability is NaN: 0.0 1.9069050073046736E-5 0.0
+selectionProbability is NaN: 0.0 2.8750300033313977E-5 0.0
+selectionProbability is NaN: 0.0 6.128994689818328E-21 0.0
+Fitness: 2119.0187952518463
+swarm size: 3500 alpha: 0.5 beta: 2 rho: 0.1 fitness: Fitness: 2197.01069188118
+swarm size: 3500 alpha: 0.5 beta: 2 rho: 0.3 fitness: Fitness: 2384.721661090851
+swarm size: 3500 alpha: 0.5 beta: 2 rho: 0.5 fitness: Fitness: 2292.3469429016113
+swarm size: 3500 alpha: 0.5 beta: 2 rho: 0.7 fitness: Fitness: 2221.9829049110413
+swarm size: 3500 alpha: 0.5 beta: 2 rho: 0.9 fitness: Fitness: 2358.412445306778
+swarm size: 3500 alpha: 0.5 beta: 2.5 rho: 0.1 fitness: Fitness: 2168.7710361480713
+swarm size: 3500 alpha: 0.5 beta: 2.5 rho: 0.3 fitness: Fitness: 2140.377128839493
+swarm size: 3500 alpha: 0.5 beta: 2.5 rho: 0.5 fitness: Fitness: 2496.2922117710114
+swarm size: 3500 alpha: 0.5 beta: 2.5 rho: 0.7 fitness: Fitness: 5400.376150608063
+swarm size: 3500 alpha: 0.5 beta: 2.5 rho: 0.9 fitness: Fitness: 6343.85574400425
+swarm size: 3500 alpha: 0.5 beta: 3 rho: 0.1 fitness: Fitness: 14217.200902462006
+swarm size: 3500 alpha: 0.5 beta: 3 rho: 0.3 fitness: Fitness: 8286.587470293045
+swarm size: 3500 alpha: 0.5 beta: 3 rho: 0.5 fitness: Fitness: 2064.136193752289
+swarm size: 3500 alpha: 0.5 beta: 3 rho: 0.7 fitness: Fitness: 2155.3156411647797
+swarm size: 3500 alpha: 0.5 beta: 3 rho: 0.9 fitness: Fitness: 5013.5346167087555
+swarm size: 3500 alpha: 0.5 beta: 3.5 rho: 0.1 fitness: Fitness: 2141.7026269435883
+swarm size: 3500 alpha: 0.5 beta: 3.5 rho: 0.3 fitness: Fitness: 5299.073834896088
+swarm size: 3500 alpha: 0.5 beta: 3.5 rho: 0.5 fitness: Fitness: 2033.7929292917252
+swarm size: 3500 alpha: 0.5 beta: 3.5 rho: 0.7 fitness: Fitness: 5189.2784512043
+swarm size: 3500 alpha: 0.5 beta: 3.5 rho: 0.9 fitness: Fitness: 2232.747134208679
+swarm size: 3500 alpha: 0.5 beta: 4 rho: 0.1 fitness: Fitness: 10096.997172117233
+swarm size: 3500 alpha: 0.5 beta: 4 rho: 0.3 fitness: Fitness: 2255.226574420929
+swarm size: 3500 alpha: 0.5 beta: 4 rho: 0.5 fitness: Fitness: 5076.2854681015015
+swarm size: 3500 alpha: 0.5 beta: 4 rho: 0.7 fitness: Fitness: 3134.6541633605957
+swarm size: 3500 alpha: 0.5 beta: 4 rho: 0.9 fitness: Fitness: 6119.267576932907
+swarm size: 3500 alpha: 1 beta: 2 rho: 0.1 fitness: Fitness: 1737.2933955192566
+swarm size: 3500 alpha: 1 beta: 2 rho: 0.3 fitness: Fitness: 1735.7201800346375
+swarm size: 3500 alpha: 1 beta: 2 rho: 0.5 fitness: Fitness: 1745.6141123771667
+swarm size: 3500 alpha: 1 beta: 2 rho: 0.7 fitness: Fitness: 1733.1478462219238
+swarm size: 3500 alpha: 1 beta: 2 rho: 0.9 fitness: Fitness: 1737.6829843521118
+swarm size: 3500 alpha: 1 beta: 2.5 rho: 0.1 fitness: Fitness: 1771.7412462234497
+swarm size: 3500 alpha: 1 beta: 2.5 rho: 0.3 fitness: Fitness: 1780.075766801834
+swarm size: 3500 alpha: 1 beta: 2.5 rho: 0.5 fitness: Fitness: 1796.439800620079
+swarm size: 3500 alpha: 1 beta: 2.5 rho: 0.7 fitness: Fitness: 1774.8783509731293
+swarm size: 3500 alpha: 1 beta: 2.5 rho: 0.9 fitness: Fitness: 1768.0455787181854
+swarm size: 3500 alpha: 1 beta: 3 rho: 0.1 fitness: Fitness: 1766.4496505260468
+swarm size: 3500 alpha: 1 beta: 3 rho: 0.3 fitness: Fitness: 1784.985214471817
+swarm size: 3500 alpha: 1 beta: 3 rho: 0.5 fitness: Fitness: 1814.4128546714783
+swarm size: 3500 alpha: 1 beta: 3 rho: 0.7 fitness: Fitness: 1814.8135299682617
+swarm size: 3500 alpha: 1 beta: 3 rho: 0.9 fitness: Fitness: 1812.3044669628143
+swarm size: 3500 alpha: 1 beta: 3.5 rho: 0.1 fitness: Fitness: 1745.4984693527222
+swarm size: 3500 alpha: 1 beta: 3.5 rho: 0.3 fitness: Fitness: 1797.1451380252838
+swarm size: 3500 alpha: 1 beta: 3.5 rho: 0.5 fitness: Fitness: 1796.718738079071
+swarm size: 3500 alpha: 1 beta: 3.5 rho: 0.7 fitness: Fitness: 1836.8868021965027
+swarm size: 3500 alpha: 1 beta: 3.5 rho: 0.9 fitness: Fitness: 1831.3938570022583
+swarm size: 3500 alpha: 1 beta: 4 rho: 0.1 fitness: Fitness: 1880.2762711048126
+swarm size: 3500 alpha: 1 beta: 4 rho: 0.3 fitness: Fitness: 1841.3299255371094
+swarm size: 3500 alpha: 1 beta: 4 rho: 0.5 fitness: Fitness: 1884.1783447265625
+swarm size: 3500 alpha: 1 beta: 4 rho: 0.7 fitness: Fitness: 1917.5158381462097
+swarm size: 3500 alpha: 1 beta: 4 rho: 0.9 fitness: Fitness: 1808.524708032608
+swarm size: 3500 alpha: 1.5 beta: 2 rho: 0.1 fitness: Fitness: 1686.334843993187
+swarm size: 3500 alpha: 1.5 beta: 2 rho: 0.3 fitness: Fitness: 1700.9159274101257
+swarm size: 3500 alpha: 1.5 beta: 2 rho: 0.5 fitness: Fitness: 1715.02792429924
+swarm size: 3500 alpha: 1.5 beta: 2 rho: 0.7 fitness: Fitness: 1704.0198125839233
+swarm size: 3500 alpha: 1.5 beta: 2 rho: 0.9 fitness: Fitness: 1709.5846586227417
+swarm size: 3500 alpha: 1.5 beta: 2.5 rho: 0.1 fitness: Fitness: 1745.3962502479553
+swarm size: 3500 alpha: 1.5 beta: 2.5 rho: 0.3 fitness: Fitness: 1718.7438056468964
+swarm size: 3500 alpha: 1.5 beta: 2.5 rho: 0.5 fitness: Fitness: 1701.2795343399048
+swarm size: 3500 alpha: 1.5 beta: 2.5 rho: 0.7 fitness: Fitness: 1689.4709849357605
+swarm size: 3500 alpha: 1.5 beta: 2.5 rho: 0.9 fitness: Fitness: 1762.559654712677
+swarm size: 3500 alpha: 1.5 beta: 3 rho: 0.1 fitness: Fitness: 1778.6541330814362
+swarm size: 3500 alpha: 1.5 beta: 3 rho: 0.3 fitness: Fitness: 1754.8503217697144
+swarm size: 3500 alpha: 1.5 beta: 3 rho: 0.5 fitness: Fitness: 1716.7688148021698
+swarm size: 3500 alpha: 1.5 beta: 3 rho: 0.7 fitness: Fitness: 1747.3966423273087
+swarm size: 3500 alpha: 1.5 beta: 3 rho: 0.9 fitness: Fitness: 1802.8877956867218
+swarm size: 3500 alpha: 1.5 beta: 3.5 rho: 0.1 fitness: Fitness: 1973.5956332683563
+swarm size: 3500 alpha: 1.5 beta: 3.5 rho: 0.3 fitness: Fitness: 1833.0945253372192
+swarm size: 3500 alpha: 1.5 beta: 3.5 rho: 0.5 fitness: Fitness: 1743.0113558769226
+swarm size: 3500 alpha: 1.5 beta: 3.5 rho: 0.7 fitness: Fitness: 1868.486566066742
+swarm size: 3500 alpha: 1.5 beta: 3.5 rho: 0.9 fitness: Fitness: 1984.031282901764
+swarm size: 3500 alpha: 1.5 beta: 4 rho: 0.1 fitness: Fitness: 1946.8573541641235
+swarm size: 3500 alpha: 1.5 beta: 4 rho: 0.3 fitness: Fitness: 2040.042503118515
+swarm size: 3500 alpha: 1.5 beta: 4 rho: 0.5 fitness: Fitness: 1936.858139038086
+swarm size: 3500 alpha: 1.5 beta: 4 rho: 0.7 fitness: Fitness: 1917.6234912872314
+swarm size: 3500 alpha: 1.5 beta: 4 rho: 0.9 fitness: Fitness: 1949.0257779359818
+swarm size: 3500 alpha: 2 beta: 2 rho: 0.1 fitness: Fitness: 1723.887939453125
+swarm size: 3500 alpha: 2 beta: 2 rho: 0.3 fitness: Fitness: 1681.3862471580505
+swarm size: 3500 alpha: 2 beta: 2 rho: 0.5 fitness: Fitness: 1697.1561502218246
+swarm size: 3500 alpha: 2 beta: 2 rho: 0.7 fitness: Fitness: 1682.481791138649
+swarm size: 3500 alpha: 2 beta: 2 rho: 0.9 fitness: Fitness: 1700.8966423273087
+swarm size: 3500 alpha: 2 beta: 2.5 rho: 0.1 fitness: Fitness: 1748.5942902565002
+swarm size: 3500 alpha: 2 beta: 2.5 rho: 0.3 fitness: Fitness: 1787.168422460556
+swarm size: 3500 alpha: 2 beta: 2.5 rho: 0.5 fitness: Fitness: 1693.8261622190475
+swarm size: 3500 alpha: 2 beta: 2.5 rho: 0.7 fitness: Fitness: 1716.5733857154846
+swarm size: 3500 alpha: 2 beta: 2.5 rho: 0.9 fitness: Fitness: 1693.158843755722
+swarm size: 3500 alpha: 2 beta: 3 rho: 0.1 fitness: Fitness: 1940.0822434425354
+swarm size: 3500 alpha: 2 beta: 3 rho: 0.3 fitness: Fitness: 1756.18827521801
+swarm size: 3500 alpha: 2 beta: 3 rho: 0.5 fitness: Fitness: 1881.5557001829147
+swarm size: 3500 alpha: 2 beta: 3 rho: 0.7 fitness: Fitness: 1825.4499411582947
+swarm size: 3500 alpha: 2 beta: 3 rho: 0.9 fitness: Fitness: 1868.4857304096222
+swarm size: 3500 alpha: 2 beta: 3.5 rho: 0.1 fitness: Fitness: 1997.6058549880981
+swarm size: 3500 alpha: 2 beta: 3.5 rho: 0.3 fitness: Fitness: 2046.4424538612366
+swarm size: 3500 alpha: 2 beta: 3.5 rho: 0.5 fitness: Fitness: 1946.4749853610992
+swarm size: 3500 alpha: 2 beta: 3.5 rho: 0.7 fitness: Fitness: 1897.319239616394
+swarm size: 3500 alpha: 2 beta: 3.5 rho: 0.9 fitness: Fitness: 1910.1979792118073
+swarm size: 3500 alpha: 2 beta: 4 rho: 0.1 fitness: Fitness: 1964.0868604183197
+swarm size: 3500 alpha: 2 beta: 4 rho: 0.3 fitness: Fitness: 2078.815621614456
+swarm size: 3500 alpha: 2 beta: 4 rho: 0.5 fitness: Fitness: 1932.3079297542572
+swarm size: 3500 alpha: 2 beta: 4 rho: 0.7 fitness: Fitness: 1946.6098279953003
+swarm size: 3500 alpha: 2 beta: 4 rho: 0.9 fitness: Fitness: 1808.2792732715607
+swarm size: 3500 alpha: 2.5 beta: 2 rho: 0.1 fitness: Fitness: 1729.7291810512543
+swarm size: 3500 alpha: 2.5 beta: 2 rho: 0.3 fitness: Fitness: 1672.6508499383926
+swarm size: 3500 alpha: 2.5 beta: 2 rho: 0.5 fitness: Fitness: 1727.004769206047
+swarm size: 3500 alpha: 2.5 beta: 2 rho: 0.7 fitness: Fitness: 1744.8571450710297
+swarm size: 3500 alpha: 2.5 beta: 2 rho: 0.9 fitness: Fitness: 1778.8237290382385
+swarm size: 3500 alpha: 2.5 beta: 2.5 rho: 0.1 fitness: Fitness: 1770.2354558706284
+swarm size: 3500 alpha: 2.5 beta: 2.5 rho: 0.3 fitness: Fitness: 1757.269159913063
+swarm size: 3500 alpha: 2.5 beta: 2.5 rho: 0.5 fitness: Fitness: 1742.8397337198257
+swarm size: 3500 alpha: 2.5 beta: 2.5 rho: 0.7 fitness: Fitness: 1725.4863622188568
+swarm size: 3500 alpha: 2.5 beta: 2.5 rho: 0.9 fitness: Fitness: 1770.6264691352844
+swarm size: 3500 alpha: 2.5 beta: 3 rho: 0.1 fitness: Fitness: 1841.484766960144
+swarm size: 3500 alpha: 2.5 beta: 3 rho: 0.3 fitness: Fitness: 1856.4436455965042
+swarm size: 3500 alpha: 2.5 beta: 3 rho: 0.5 fitness: Fitness: 1928.7978284358978
+swarm size: 3500 alpha: 2.5 beta: 3 rho: 0.7 fitness: Fitness: 1803.6876754760742
+swarm size: 3500 alpha: 2.5 beta: 3 rho: 0.9 fitness: Fitness: 1815.9985700845718
+swarm size: 3500 alpha: 2.5 beta: 3.5 rho: 0.1 fitness: Fitness: 2154.5386097431183
+swarm size: 3500 alpha: 2.5 beta: 3.5 rho: 0.3 fitness: Fitness: 2005.022223830223
+swarm size: 3500 alpha: 2.5 beta: 3.5 rho: 0.5 fitness: Fitness: 1909.987687945366
+swarm size: 3500 alpha: 2.5 beta: 3.5 rho: 0.7 fitness: Fitness: 1937.4517078399658
+swarm size: 3500 alpha: 2.5 beta: 3.5 rho: 0.9 fitness: Fitness: 1900.4878783226013
+swarm size: 3500 alpha: 2.5 beta: 4 rho: 0.1 fitness: Fitness: 2184.1445994377136
+swarm size: 3500 alpha: 2.5 beta: 4 rho: 0.3 fitness: Fitness: 2087.5734736919403
+swarm size: 3500 alpha: 2.5 beta: 4 rho: 0.5 fitness: Fitness: 2073.8434455394745
+swarm size: 3500 alpha: 2.5 beta: 4 rho: 0.7 fitness: Fitness: 1969.558632850647
+swarm size: 3500 alpha: 2.5 beta: 4 rho: 0.9 fitness: Fitness: 2018.3752446174622
+Recomended parameters for ACO: swarm size: 1500 alpha: 2 beta: 2 rho: 0.9 fitness: Fitness: 1662.6494369506836

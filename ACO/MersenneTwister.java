@@ -1,5 +1,4 @@
-import java.io.Serial;
-import java.io.Serializable;
+import java.io.*;
 import java.util.Random;
 
 public class MersenneTwister extends Random implements Serializable, Cloneable {

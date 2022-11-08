@@ -22,5 +22,5 @@ public enum Configuration {
 
     public final String dataPath = "../data/instance.txt"; // Change this if it's in a different file. This assumes execution from sub directory.
 
-    public final boolean debug = true;
+    public final boolean debug = false;
 }

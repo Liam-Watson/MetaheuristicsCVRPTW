@@ -1,4 +1,6 @@
 import java.text.DecimalFormat;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public enum Configuration {
     INSTANCE;
@@ -18,17 +20,16 @@ public enum Configuration {
 
     public final int capacity = 200;
     public final int numberOfTrucks = 20;
-    
 
     public final int numberOfCustomers = 100;
 
-    public final int assignToTruck = numberOfCustomers/numberOfTrucks;
+    public final int assignToTruck = numberOfCustomers / numberOfTrucks;
 
-    //parameters
-    public  double decayFactor = 0.5;
-    public  double alpha = 1.5;
-    public  double beta = 2;
-    public  int numberOfAnts = 3000;
+    // parameters
+    public double decayFactor = 0.5;
+    public double alpha = 1.5;
+    public double beta = 2;
+    public int numberOfAnts = 500;
 
     public double timeWindowObjectivePunishment = 1000;
     public double timeWindowEtaPunishment = 1000;
@@ -39,4 +40,6 @@ public enum Configuration {
     public double Q = 1;
 
     public ProblemInstance data;
+
+    public Lock merceneLock = new ReentrantLock();
 }
