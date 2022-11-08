@@ -6,8 +6,8 @@ public enum Configuration {
 
     public final int maximumNumberOfGenerations = 10000;
 
-    public int populationSize = 10000;
-    public double crossoverRatio = 0.3;
+    public int populationSize = 3000;
+    public double crossoverRatio = 0.5;
     public double elitismRatio = 0.3;
     public double mutationRatio = 0.05;
 
@@ -22,5 +22,5 @@ public enum Configuration {
 
     public final String dataPath = "../data/instance.txt"; // Change this if it's in a different file. This assumes execution from sub directory.
 
-    public final boolean debug = false;
+    public final boolean debug = true;
 }

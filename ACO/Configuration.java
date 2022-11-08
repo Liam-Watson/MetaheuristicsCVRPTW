@@ -26,10 +26,12 @@ public enum Configuration {
     public final int assignToTruck = numberOfCustomers / numberOfTrucks;
 
     // parameters
-    public double decayFactor = 0.5;
-    public double alpha = 1.5;
+
+    public double decayFactor = 0.9;
+
+    public double alpha = 2;
     public double beta = 2;
-    public int numberOfAnts = 500;
+    public int numberOfAnts = 1500;
 
     public double timeWindowObjectivePunishment = 1000;
     public double timeWindowEtaPunishment = 1000;
