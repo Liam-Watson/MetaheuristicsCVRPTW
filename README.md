@@ -22,8 +22,11 @@ or to search fro parameters (you will need to install tqdm with pip install tqdm
 
 For the individual algorithms you can run the following commands:
 ```cd ACO```
+
 ``` java Application.java```
+
 ```cd GA```
+
 ``` java Application.java```
 
 
