@@ -8,7 +8,17 @@ openjdk 17.0.4
 Written on ubuntu 22.04 but any other operating system should work. 
 
 ## Usage
-First you will need to compile the java code.
+First you will need to compile the java code:
+
+```cd ACO```
+
+```javac *.java```
+
+```cd GA```
+
+```javac *.java```
+
+
 
 If you want to suppress the output of the java program, add the output change the debug variable in the configuration file to false. 
 To run the program use the python wrapper, simply run the following command in the root directory:
@@ -21,6 +31,7 @@ or to search fro parameters (you will need to install tqdm with pip install tqdm
 ## Direct execution
 
 For the individual algorithms you can run the following commands:
+
 ```cd ACO```
 
 ``` java Application.java```
