@@ -37,7 +37,7 @@ public class Application {
         }
         if(Configuration.INSTANCE.debug){
             System.out.println(lastValid.getRoutes());
-            System.out.println("generation                  : " + decimalFormat.format(i) + " : " + bestChromosome.getGene());
+            // System.out.println("generation                  : " + decimalFormat.format(i) + " : " + bestChromosome.getGene());
             System.out.println("runtime                     : " + (System.currentTimeMillis() - runtimeStart) + " ms");
             System.out.println("numberOfCrossoverOperations : " + population.getNumberOfCrossoverOperations());
             System.out.println("numberOfMutationOperations  : " + population.getNumberOfMutationOperations());

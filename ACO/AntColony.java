@@ -5,7 +5,7 @@ public class AntColony {
     private final double[][] pheromoneMatrix;
     private final Ant[] antArray;
     public double bestFitness = Double.MAX_VALUE;
-
+    public String bestRouteSoFar = "";
     public AntColony() {
         if (Configuration.INSTANCE.isDebug) {
             Configuration.INSTANCE.logEngine.write("--- AntColony()");
@@ -113,6 +113,7 @@ public class AntColony {
                 bestObjective = getBestAnt().getObjectiveValue();
                 bestRoute = getBestAnt().toString();
                 bestFitness = bestObjective;
+                bestRouteSoFar = getBestAnt().toString();;
             }
 
             if (Configuration.INSTANCE.isDebug) {

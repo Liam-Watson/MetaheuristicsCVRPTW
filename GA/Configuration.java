@@ -7,8 +7,8 @@ public enum Configuration {
     public final int maximumNumberOfGenerations = 10000;
 
     public int populationSize = 3000;
-    public double crossoverRatio = 0.5;
-    public double elitismRatio = 0.3;
+    public double crossoverRatio = 0.2;
+    public double elitismRatio = 0.1;
     public double mutationRatio = 0.05;
 
     public final int capacity = 200;

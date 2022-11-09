@@ -19,6 +19,7 @@ public class Application {
             System.out.println(antColony.toString());
 
         System.out.println("Fitness: " + antColony.bestFitness);
+        System.out.println("Route: " + antColony.bestRouteSoFar);
         Configuration.INSTANCE.logEngine.close();
     }
 }
